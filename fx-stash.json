@@ -1,0 +1,15 @@
+[
+  {
+    "version": "2.3",
+    "changelog": [
+      "Released"
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua",
+      "versionchecker.lua"
+    ]
+  }
+]
