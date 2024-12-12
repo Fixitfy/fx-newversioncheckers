@@ -2,6 +2,7 @@
   {
     "version": "2.3",
     "changelog": [
+      "Update Recommended Version",
       "The reported dupe transaction on withdrawal was blocked.",
       "Fixed bugs reported for rsgv2. It is currently working smoothly with v1 and v2",
       "New Locale dupeWarning"
