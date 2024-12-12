@@ -10,6 +10,7 @@
       "s/s.lua",
       "framework/frameworks.lua",
       "config.lua",
+      "fxmanifest.lua",
       "versionchecker.lua"
     ]
   }
