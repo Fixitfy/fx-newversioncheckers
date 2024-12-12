@@ -34,7 +34,7 @@
       "c/c.lua",
       "s/s.lua",
       "framework/frameworks.lua",
-      "config.lua",
+      "config.luas",
       "versionchecker.lua"
     ]
   }
