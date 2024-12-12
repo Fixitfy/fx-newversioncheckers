@@ -12,30 +12,4 @@
       "versionchecker.lua"
     ]
   },
-  {
-    "version": "2.4",
-    "changelog": [
-      "Released"
-    ],
-    "updateFiles": [
-      "c/c.lua",
-      "s/s.lua",
-      "framework/frameworks.lua",
-      "config.lua",
-      "versionchecker.lua"
-    ]
-  },
-  {
-    "version": "2.5",
-    "changelog": [
-      "Released"
-    ],
-    "updateFiles": [
-      "c/c.lua",
-      "s/s.lua",
-      "framework/frameworks.lua",
-      "config.luas",
-      "versionchecker.lua"
-    ]
-  }
 ]
