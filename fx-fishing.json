@@ -1,1 +1,15 @@
-
+[
+  {
+    "version": "2.0",
+    "changelog": [
+      "The fishing rod duplication dupes you guys reported have been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua",
+      "versionchecker.lua"
+    ]
+  }
+]
