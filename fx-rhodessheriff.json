@@ -1,1 +1,11 @@
-
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Update Recommended Version"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua"
+    ]
+  }
+]
