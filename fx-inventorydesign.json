@@ -1,0 +1,13 @@
+[
+  {
+    "version": "1.1",
+    "changelog": [
+      "Fixed the issue of giving an item to another player",
+      "Fixed all bugs on F8"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "html folder"
+    ]
+  }
+]
