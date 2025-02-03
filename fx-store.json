@@ -1,1 +1,22 @@
-
+[
+  {
+    "version": "2.7",
+    "changelog": [
+      "Changing product quantities and prices through NuiDevtools was prevented."
+    ],
+    "updateFiles": [
+      "Update main.js"
+    ]
+  },
+  {
+    "version": "2.8",
+    "changelog": [
+      "The image error in css has been fixed.",
+      "Fixed the problem of the ui appearing when logging into the game.",
+      "Fixed fx-store bugs for RSGV2"
+    ],
+    "updateFiles": [
+      "Update all files except the Config.Stores table"
+    ]
+  },
+]
