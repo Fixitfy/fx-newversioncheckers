@@ -1,1 +1,12 @@
-
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Bla bla bla.."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua"
+    ]
+  }
+]
