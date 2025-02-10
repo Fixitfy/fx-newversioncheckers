@@ -1,12 +1,11 @@
 [
   {
-    "version": "1.0",
+    "version": "1.01",
     "changelog": [
-      "Bla bla bla.."
+      "All reported bugs have been fixed. Delete your old folder and use the new downloaded folder."
     ],
     "updateFiles": [
-      "c/c.lua",
-      "s/s.lua"
+      "All files"
     ]
   }
 ]
