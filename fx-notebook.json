@@ -1,1 +1,16 @@
+[
+  {
+    "version": "3.1",
+    "changelog": [
+      "Fixed the book not being deleted issue for vorp framework"
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "frameworks.lua",
+      "main.js",
+      "versionchecker.lua"
+    ]
+  }
+]
 
