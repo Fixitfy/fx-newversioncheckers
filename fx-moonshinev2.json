@@ -7,5 +7,17 @@
     "updateFiles": [
       "All files"
     ]
+  },
+    {
+    "version": "1.02",
+    "changelog": [
+      "Field feature for FX-Fields has been added back as in v1.",
+      "Fixed an issue with Interior not loading after restarting the server.",
+      "All reported bugs have been fixed."
+    ],
+    "updateFiles": [
+      "All files",
+      "You have to update all files and transfer your own configuration back in the new config.lua because config.lua has new features"
+    ]
   }
 ]
