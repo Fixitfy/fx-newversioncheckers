@@ -8,7 +8,7 @@
       "All files"
     ]
   },
-    {
+  {
     "version": "1.02",
     "changelog": [
       "Field feature for FX-Fields has been added back as in v1.",
@@ -19,5 +19,15 @@
       "All files",
       "You have to update all files and transfer your own configuration back in the new config.lua because config.lua has new features"
     ]
-  }
+  },
+  {
+    "version": "1.03",
+    "changelog": [
+      "Fixed exp system not working in the book."
+    ],
+    "updateFiles": [
+      "server.lua",
+      "main.js"
+    ]
+  },
 ]
