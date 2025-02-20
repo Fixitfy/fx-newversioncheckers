@@ -1,1 +1,11 @@
-
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Fixed all bugs on F8",
+    ],
+    "updateFiles": [
+      "fxmanifest.lua"
+    ]
+  }
+]
