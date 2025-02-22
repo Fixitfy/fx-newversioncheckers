@@ -8,7 +8,8 @@
     "fxmanifest.lua",
     "s/s.lua",
     "framework/frameworks.lua",
-    "versionchecker.lua"
+    "versionchecker.lua",
+    "config.lua new Locale notuniqueItem"
     ]
   }
 ]
