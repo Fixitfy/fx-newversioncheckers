@@ -30,4 +30,22 @@
       "main.js"
     ]
   },
+  {
+    "version": "1.04",
+    "changelog": [
+      "Moonshine level issue fixed.",
+      "Fixed image issues with moonshine products.",
+      "Moonshine box will appear locked when production level is not met.",
+      "Pictures of products needed for production have been pulled from inventory.",
+      "Fixed all bugs reported for RSG.",
+      "Blip issues have been fixed.",
+      "Fixed the problem with the Add Member button.",
+      "Detailed Log system has been added. Edit Config.Webhook.",
+      "Added label property to RewardsItems tables.",
+      "The stash slot limit for Vorp is set to 50. You can change it from frameworks.lua if you wish"
+    ],
+    "updateFiles": [
+      "All files"
+    ]
+  },
 ]
