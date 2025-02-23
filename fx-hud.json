@@ -11,5 +11,20 @@
     "versionchecker.lua",
     "config.lua new Locale notuniqueItem"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "Fixed bugs related to item usages. All animations have been updated. This is an important update, please apply it completely."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder",
+      "Update consumables.lua/(Config.Animations and Config.DoAnim) ",
+      "framework/frameworks.lua",
+      "versionchecker.lua",
+      "config.lua new Locale animationinprogress"
+    ]
   }
 ]
