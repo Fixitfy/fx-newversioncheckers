@@ -48,4 +48,18 @@
       "All files"
     ]
   },
+  {
+    "version": "1.05",
+    "changelog": [
+      "Fixed an issue where deleting and reinstalling Moonshine still would refresh its durability.",
+      "Customers using RSG should set all items in Config.Moonshines to unique = true, in rsg-core/shared/items.lua",
+      "Webhook bug fixed"
+    ],
+    "updateFiles": [
+      "c/client.lua",
+      "s/server.lua",
+      "framework/framework.lua",
+      "fxmanifest.lua"
+    ]
+  },
 ]
