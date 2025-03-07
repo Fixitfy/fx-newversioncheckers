@@ -10,5 +10,17 @@
       "fxmanifest.lua",
       "versionchecker.lua"
     ]
-  }
+  },
+  {
+    "version": "2.92",
+    "changelog": [
+      "Fixed product receiving quantity issue in orders section."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "ui/assets/main.js",
+      "framework/frameworks.lua",
+      "fxmanifest.lua",
+    ]
+  },
 ]
