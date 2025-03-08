@@ -9,5 +9,14 @@
       "fxmanifest.lua",
       "html folder"
     ]
-  }
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "vorp_inventory has been adapted to the latest version, which includes fixes made in 4.0 on github."
+    ],
+    "updateFiles": [
+      "All files"
+    ]
+  },
 ]
