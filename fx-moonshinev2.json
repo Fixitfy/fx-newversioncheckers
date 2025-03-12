@@ -62,4 +62,14 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "1.06",
+    "changelog": [
+      "Fixed a major bug in my withdrawal!",
+      "Known bugs fixed",
+    ],
+    "updateFiles": [
+      "s/server.lua",
+    ]
+  }
 ]
