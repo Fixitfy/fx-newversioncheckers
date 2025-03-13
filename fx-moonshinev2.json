@@ -71,5 +71,17 @@
     "updateFiles": [
       "s/server.lua",
     ]
-  }
+  },
+  {
+    "version": "1.07",
+    "changelog": [
+      "Fixed the issue of charging business members for login.",
+      "Fixed the issue where business members could not access the stash.",
+      "Known bugs fixed"
+    ],
+    "updateFiles": [
+      "Update all files except config.lua",
+      "New Config.Locale <youdonthavejob>"
+    ]
+  },
 ]
