@@ -26,5 +26,16 @@
       "versionchecker.lua",
       "config.lua new Locale animationinprogress"
     ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "Fixed an issue with saving player data. Players will no longer be able to use exploits like health regeneration"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder"
+    ]
   }
 ]
