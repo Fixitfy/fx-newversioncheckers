@@ -9,5 +9,19 @@
       "fxmanifest.lua",
       "ui folder"
     ]
-  }
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "Added the ability to set the maximum number of workers you can buy (Config.MaximumWorkerCount)",
+      "Added work requirement feature to buy workers. For example, to buy a miner worker you need to have a miney job (requiredJobs)"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "framework folder",
+      "s folder",
+      "c folder",
+      "config.lua"
+    ]
+  },
 ]
