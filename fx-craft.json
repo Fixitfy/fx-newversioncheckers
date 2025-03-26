@@ -26,7 +26,8 @@
   {
     "version": "2.93",
     "changelog": [
-      "Fixed bugs in RSGV2."
+      "Fixed bugs in RSGV2.",
+      "Minor bugs fixed"
     ],
     "updateFiles": [
       "s/s.lua",
