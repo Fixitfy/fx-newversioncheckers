@@ -24,4 +24,18 @@
       "config.lua"
     ]
   },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Item limit feature added to the warehouse system",
+      "When updating this script, do not update your data folder because all your data/ is stored there."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "s folder",
+      "c folder",
+      "ui folder",
+      "config.lua"
+    ]
+  },
 ]
