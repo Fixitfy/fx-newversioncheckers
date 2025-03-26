@@ -23,4 +23,17 @@
       "fxmanifest.lua",
     ]
   },
+  {
+    "version": "2.93",
+    "changelog": [
+      "Fixed bugs in RSGV2."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "ui/assets/main.js",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
+  },
 ]
