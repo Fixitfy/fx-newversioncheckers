@@ -11,12 +11,12 @@
   {
     "version": "1.1",
     "changelog": [
-      "Flickering rocks issue fixed ",
+      "Flickering rocks issue fixed",
       "Fixed a few collision fixed",
       "Grass that spoiled the appearance of the map was removed"
     ],
     "updateFiles": [
       "Delete the old folder and use the new folder"
     ]
-  },
+  }
 ]
