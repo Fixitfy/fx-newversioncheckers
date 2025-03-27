@@ -84,4 +84,16 @@
       "New Config.Locale <youdonthavejob>"
     ]
   },
+  {
+    "version": "1.08",
+    "changelog": [
+      "Fixed a bug where team members could not make deliveries in someone else's interrior.",
+      "RSGCoreV2 Issues fixed.",
+      "Known bugs fixed"
+    ],
+    "updateFiles": [
+      "s/server.lua",
+      "framework/framework.lua"
+    ]
+  }
 ]
