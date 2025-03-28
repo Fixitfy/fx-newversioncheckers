@@ -37,5 +37,16 @@
       "ui folder",
       "config.lua"
     ]
+  },
+  {
+    "version": "1.21",
+    "changelog": [
+      "Fixed bug in Reward Multiplier (IMPORTANT)",
+      "When updating this script, do not update your data folder because all your data/ is stored there."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "s folder",
+    ]
   }
 ]
