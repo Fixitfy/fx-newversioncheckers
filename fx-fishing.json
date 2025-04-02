@@ -1,6 +1,6 @@
 [
   {
-    "version": "2.1",
+    "version": "2.2",
     "changelog": [
       "Fixed the issue where the minigame animates for the 2nd time when fishing fails."
     ],
