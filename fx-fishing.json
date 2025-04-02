@@ -2,14 +2,13 @@
   {
     "version": "2.1",
     "changelog": [
-      "The fishing rod duplication dupes you guys reported have been fixed."
+      "Fixed the issue where the minigame animates for the 2nd time when fishing fails."
     ],
     "updateFiles": [
       "c/c.lua",
       "s/s.lua",
       "framework/frameworks.lua",
-      "fxmanifest.lua",
-      "versionchecker.lua"
+      "fxmanifest.lua"
     ]
   }
 ]
