@@ -1,13 +1,11 @@
 [
   {
-    "version": "2.2",
+    "version": "2.3",
     "changelog": [
-      "Fixed the issue where the minigame animates for the 2nd time when fishing fails."
+      "Fixed bait attachment errors caused by Config.RemoveBaitOnFailed. Important update please apply."
     ],
     "updateFiles": [
       "c/c.lua",
-      "s/s.lua",
-      "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
   }
