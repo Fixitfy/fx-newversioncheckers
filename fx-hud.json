@@ -37,5 +37,17 @@
       "c folder",
       "s folder"
     ]
+  },
+  {
+    "version": "3.5",
+    "changelog": [
+      "Added a configuration to config.lua that allows you to hide cash, gold, level, playerid and time"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "config.lua new Config.HideHuds",
+      "ui/assets/main.js"
+    ]
   }
 ]
