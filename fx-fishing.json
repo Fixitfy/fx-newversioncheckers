@@ -1,11 +1,12 @@
 [
   {
-    "version": "2.3",
+    "version": "2.4",
     "changelog": [
-      "Fixed bait attachment errors caused by Config.RemoveBaitOnFailed. Important update please apply."
+      "Fixed fishing rod duplication issue."
     ],
     "updateFiles": [
       "c/c.lua",
+      "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
   }
