@@ -9,5 +9,17 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.5",
+    "changelog": [
+      "Fixed fishing rod duplication issue."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
