@@ -48,5 +48,15 @@
       "fxmanifest.lua",
       "s folder",
     ]
+  },
+  {
+    "version": "1.22",
+    "changelog": [
+      "Fixed worker not being deleted when a player sells a worker"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "s folder"
+    ]
   }
 ]
