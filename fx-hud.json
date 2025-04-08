@@ -49,5 +49,20 @@
       "config.lua new Config.HideHuds",
       "ui/assets/main.js"
     ]
-  }
+  },
+  {
+    "version": "3.6",
+    "changelog": [
+      "Added dirty,stress,alcohol,temp and onesync huds in Config.HideHuds",
+      "returnedItem property will now work if UsageLimit is 1 or decreases to 1"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "s/s.lua",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css"
+    ]
+  },
 ]
