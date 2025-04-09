@@ -21,7 +21,7 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
-  }
+  },
   {
     "version": "2.6",
     "changelog": [
