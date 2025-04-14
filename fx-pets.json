@@ -1,1 +1,19 @@
-
+[
+  {
+    "version": "1.5",
+    "changelog": [
+      "Update Recommended Version",
+      "The reported dupe transaction on withdrawal was blocked.",
+      "Fixed bugs reported for rsgv2. It is currently working smoothly with v1 and v2",
+      "New Locale dupeWarning"
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua",
+      "fxmanifest.lua",
+      "versionchecker.lua"
+    ]
+  }
+]
