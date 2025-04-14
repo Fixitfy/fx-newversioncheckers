@@ -2,15 +2,11 @@
   {
     "version": "1.5",
     "changelog": [
-      "Update Recommended Version",
-      "The reported dupe transaction on withdrawal was blocked.",
-      "Fixed bugs reported for rsgv2. It is currently working smoothly with v1 and v2",
-      "New Locale dupeWarning"
+      "Config.Animations table has been updated. Now it will only work with the animation library. Scenarios do not work synchronized and are invalid for most peds."
     ],
     "updateFiles": [
       "c/c.lua",
-      "s/s.lua",
-      "framework/frameworks.lua",
+      "ui/main.js",
       "config.lua",
       "fxmanifest.lua",
       "versionchecker.lua"
