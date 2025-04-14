@@ -1,14 +1,11 @@
 [
   {
-    "version": "1.2",
+    "version": "1.3",
     "changelog": [
-      "Fixed the issue of not being able to rob again after a failed robbery.",
-      "Fixed reported bugs."
+      "Fixed drawtext not showing when promptOnly = false. Update coords in Config.RobberyStores"
     ],
     "updateFiles": [
       "c/c.lua",
-      "s/s.lua",
-      "versionchecker.lua",
       "fxmanifest.lua"
     ]
   }
