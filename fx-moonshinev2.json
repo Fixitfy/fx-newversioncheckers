@@ -108,5 +108,21 @@
       "framework/framework.lua",
       "fxmanifest.lua"
     ]
+  },
+    {
+    "version": "1.2",
+    "changelog": [
+      "Fixed an issue where objects inside interiors (shells) could be nested",
+      "2 new interior designs added. There are 7 interiors in total",
+      "New prompt added for administrators to delete shells. Added log for admin process",
+      "See the discord Update channel for more information."
+    ],
+    "updateFiles": [
+      "config.lua",
+      "c/client.lua",
+      "s/server.lua",
+      "framework/framework.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
