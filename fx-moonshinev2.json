@@ -109,7 +109,7 @@
       "fxmanifest.lua"
     ]
   },
-    {
+  {
     "version": "1.2",
     "changelog": [
       "Fixed an issue where objects inside interiors (shells) could be nested",
@@ -122,6 +122,20 @@
       "c/client.lua",
       "s/server.lua",
       "framework/framework.lua",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "An option has been added to determine whether you can build moonshine stills and moonshine interiors in towns.",
+      "Cheater logging and kicking from the game feature has been added for players who exploit system vulnerabilities via Nui.",
+      "Players in the lawmen category will receive notifications upon delivery completion, based on chance."
+    ],
+    "updateFiles": [
+      "config.lua",
+      "c/client.lua",
+      "s/server.lua",
       "fxmanifest.lua"
     ]
   }
