@@ -15,5 +15,20 @@
       "fxmanifest.lua",
       "versionchecker.lua"
     ]
+  },
+  {
+    "version": "2.4",
+    "changelog": [
+      "New features added for vorp_inventory",
+      "limitedItems and limitedWeapons features added",
+      "In config.lua, if you set whitelistItems or whitelistWeapons to true, you cannot place any items other than those listed in the limitedItems and limitedWeapons tables in the stash. In short, it is a whitelist item system."
+    ],
+    "updateFiles": [
+      "c foldera",
+      "s folder",
+      "framework/frameworks.lua",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
