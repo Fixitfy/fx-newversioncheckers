@@ -33,5 +33,18 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.7",
+    "changelog": [
+      "The issue of rod duplication caused by transferring the number of rods used while fishing to another player has been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
