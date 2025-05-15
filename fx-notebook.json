@@ -11,6 +11,19 @@
       "main.js",
       "versionchecker.lua"
     ]
+  },
+  {
+    "version": "3.2",
+    "changelog": [
+      "When a new page is added to a book in vorp_core, the book duplication issue has been fixed."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
