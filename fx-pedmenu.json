@@ -16,5 +16,15 @@
     "updateFiles": [
       "c/c.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "The problem of stillbirth during ped change has been resolved."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
