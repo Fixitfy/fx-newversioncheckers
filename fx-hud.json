@@ -65,4 +65,19 @@
       "ui/assets/style.css"
     ]
   },
+  {
+    "version": "3.7",
+    "changelog": [
+      "The issue with the HideHuds setting not working properly has been resolved",
+      "The appearance of the Huds has been changed to the SVG system. They will now look smoother and higher quality",
+      "Reported bugs have been fixed."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder",
+      "ui folder",
+      "Update the entire folder; new files have been added and important changes have been made."
+    ]
+  }
 ]
