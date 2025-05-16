@@ -37,4 +37,17 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "2.94",
+    "changelog": [
+      "Errors that occurred since the last update have been fixed.",
+      "Minor bugs fixed"
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
+  }
 ]
