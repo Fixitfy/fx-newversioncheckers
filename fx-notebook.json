@@ -24,6 +24,20 @@
       "ui/js/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "Reported book duplication errors and page cutting issues have been fixed."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "ui/index.html",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
