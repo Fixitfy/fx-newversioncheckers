@@ -58,5 +58,16 @@
       "fxmanifest.lua",
       "s folder"
     ]
+  },
+  {
+    "version": "1.23",
+    "changelog": [
+      "A blip feature has been added for workers you send to jobs."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
