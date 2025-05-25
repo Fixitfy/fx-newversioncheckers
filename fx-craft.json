@@ -49,5 +49,22 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "Now every book has its own special order list.",
+      "If your skill level is insufficient for crafting, that item will appear more transparent and have a lock icon on it.",
+      "crafts will now be sorted by level",
+      "When you upgrade to this version, all old order lists will be lost. After applying this update, empty all craftData tables in the fx_craft SQL table, i.e., set them to “[]”"
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "fxmanifest.lua"
+    ]
   }
 ]
