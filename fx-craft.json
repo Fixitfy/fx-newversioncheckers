@@ -66,5 +66,14 @@
       "ui/assets/style.css",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "This is the new version of the FX-Craft script. The fast craft feature and each book's own special order list and experience point features have been added. Bugs reported for FX-Craft have been fixed and the script has been updated. We will not support older versions. This is the recommended version and you should use it. For update details, check out our Discord update channel..",
+    ],
+    "updateFiles": [
+      "All files have been edited. Back up your old folder and use the new folder. Adapt your old config data to the new fx-craft script. New examples have been left in the config for you.",
+    ]
   }
 ]
