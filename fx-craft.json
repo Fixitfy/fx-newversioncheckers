@@ -75,5 +75,20 @@
     "updateFiles": [
       "All files have been edited. Back up your old folder and use the new folder. Adapt your old config data to the new fx-craft script. New examples have been left in the config for you.",
     ]
+  },
+  {
+    "version": "3.2",
+    "changelog": [
+      "Bugs reported after the 3.1 update have been fixed.",
+      "Minor bugs fixed"
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework folder",
+      "ui folder",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
