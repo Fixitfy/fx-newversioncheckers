@@ -90,5 +90,19 @@
       "config.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "The security issue that arose after the last update has been resolved.",
+      "Minor bugs fixed"
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework folder",
+      "config.lua / new Config.CraftSecurity",
+      "fxmanifest.lua"
+    ]
   }
 ]
