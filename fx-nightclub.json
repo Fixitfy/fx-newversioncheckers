@@ -26,5 +26,18 @@
       "versionchecker.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Issues arising after the last update have been resolved"
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua/Config.ForceShowLoop",
+      "fxmanifest.lua"
+    ]
   }
 ]
