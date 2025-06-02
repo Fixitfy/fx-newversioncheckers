@@ -38,6 +38,19 @@
       "ui/index.html",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "The book duplication issue and reported errors have been fixed."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
