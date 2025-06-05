@@ -7,6 +7,12 @@
       "This is the recommended version. Previous versions will not be supported"
     ],
     "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework folder",
+      "ui folder",
+      "config.lua",
+      "versionchecker.lua",
       "fxmanifest.lua"
     ]
   }
