@@ -1,13 +1,15 @@
 [
   {
-    "version": "1.5",
+    "version": "1.6",
     "changelog": [
-      "Config.Animations table has been updated. Now it will only work with the animation library. Scenarios do not work synchronized and are invalid for most peds."
+      "All reported bugs have been fixed.",
+      "Fully compatible with rsg-inventory and ox_inventory"
     ],
     "updateFiles": [
       "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
       "ui/main.js",
-      "config.lua",
       "fxmanifest.lua",
       "versionchecker.lua"
     ]
