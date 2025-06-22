@@ -1,17 +1,12 @@
 [
   {
-    "version": "1.6",
+    "version": "1.7",
     "changelog": [
-      "All reported bugs have been fixed.",
-      "Fully compatible with rsg-inventory and ox_inventory"
+      "Fixed interface bugs and updated the entire interface.",
+      "This version is the most current version. You must update all your files to apply the new update"
     ],
     "updateFiles": [
-      "c/c.lua",
-      "s/s.lua",
-      "framework/frameworks.lua",
-      "ui/main.js",
-      "fxmanifest.lua",
-      "versionchecker.lua"
+      "Back up the old folder and use the new one. Do not replace all updated files with the old one!"
     ]
   }
 ]
