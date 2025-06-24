@@ -104,5 +104,18 @@
       "config.lua / new Config.CraftSecurity",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "Fixed an issue where multiple people could access the order list of craft books interacted with Props.",
+      "Minor bugs fixed"
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/opensource.lua",
+      "framework folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
