@@ -117,5 +117,22 @@
       "framework folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.5",
+    "changelog": [
+      "All known bugs fixed.",
+      "Created a sample section for ready-made recipes in craftdata.lua.",
+      "you will now be able to make more custom settings for each craft product. Check Fixitfy Discord"
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "s/opensource.lua",
+      "c/c.lua",
+      "c/opensource.lua",
+      "framework folder",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
