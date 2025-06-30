@@ -1,0 +1,14 @@
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Update Recommended Version"
+    ],
+    "updateFiles": [
+      "stream folder",
+      "config.lua",
+      "fxmanifest.lua",
+      "versionchecker.lua"
+    ]
+  }
+]
