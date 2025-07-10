@@ -1,11 +1,11 @@
 [
   {
-    "version": "1.0",
+    "version": "1.1",
     "changelog": [
-      "Bla bla bla.."
+      "Reported errors and color errors have been fixed."
     ],
     "updateFiles": [
-      "All Files"
+      "Update all files except config.lua and consumables.lua"
     ]
   }
 ]
