@@ -1,11 +1,14 @@
 [
   {
-    "version": "1.1",
+    "version": "2.4",
     "changelog": [
-      "Fixed all bugs on F8",
+      "All reported bugs have been fixed.",
+      "A new warehouse system is now in place. Problems such as item disappearance have been solved radically. The items you buy or buy from the auction will go to the market warehouse",
+      "now rsg and vorp will be compatible in a single script. Older versions will not be supported. Use the folder from Keymaster",
+      "You no longer need the fx_market_inventory sql, it is deprecated, you can delete it"
     ],
     "updateFiles": [
-      "fxmanifest.lua"
+      "The whole file structure has been updated. If you want to use this version without any problems, back up your folder and use the new folder without making any changes"
     ]
   }
 ]
