@@ -7,6 +7,16 @@
     "updateFiles": [
       "Update all files except config.lua and consumables.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "new images dynamically updated according to the value of hunger and thirst huds.",
+      "Reported bugs fixed"
+    ],
+    "updateFiles": [
+      "Update all files except config.lua and consumables.lua"
+    ]
   }
 ]
 
