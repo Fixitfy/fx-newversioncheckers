@@ -29,6 +29,17 @@
       "Update all files consumables.lua",
       "config.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "Support for 4k displays and other displays has arrived.",
+      "Reported bugs fixed"
+    ],
+    "updateFiles": [
+      "Update all files consumables.lua",
+      "config.lua"
+    ]
   }
 ]
 
