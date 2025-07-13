@@ -17,6 +17,18 @@
     "updateFiles": [
       "Update all files except config.lua and consumables.lua"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "Resolution and css bugs fixed.",
+      "Clear all sql data and check the new config settings",
+      "New Config Setting added."
+    ],
+    "updateFiles": [
+      "Update all files consumables.lua",
+      "config.lua"
+    ]
   }
 ]
 
