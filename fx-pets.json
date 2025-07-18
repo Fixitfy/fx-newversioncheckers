@@ -8,5 +8,16 @@
     "updateFiles": [
       "Back up the old folder and use the new one. Do not replace all updated files with the old one!"
     ]
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "missing petID bug fixed."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
