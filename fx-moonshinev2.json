@@ -138,5 +138,21 @@
       "s/server.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "Fixed a bug during delivery.",
+      "Updated the system for blasting Moonshine Still.",
+      "Added the ability to defuse Moonshine Still during the detonation process (DefuseBomb).",
+      "Check the Fixitfy Discord update channel for Update Details"
+    ],
+    "updateFiles": [
+      "config.lua",
+      "c folder",
+      "s folder",
+      "ui folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
