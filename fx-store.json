@@ -19,4 +19,16 @@
       "Update all files except the Config.Stores table"
     ]
   },
+  {
+    "version": "2.9",
+    "changelog": [
+      "Blip errors have been fixed",
+      "If the clock option is enabled, the ability to change the sprite of the blip has been added.",
+      "Reported errors have been corrected"
+    ],
+    "updateFiles": [
+      "Update all files except the Config.Stores table",
+      "New Config check Discord"
+    ]
+  }
 ]
