@@ -154,5 +154,18 @@
       "ui folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "The error during delivery has been corrected.",
+      "Reported errors have been corrected."
+    ],
+    "updateFiles": [
+      "config.lua update locale -acceptmission- ",
+      "c folder",
+      "s folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
