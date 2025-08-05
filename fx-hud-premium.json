@@ -40,6 +40,24 @@
       "Update all files consumables.lua",
       "config.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "The reported issues have been resolved.",
+      "When the value of a hud decreases, the + and - values will now display correctly.",
+      "Two new settings have been added to Consumables.lua (progressBarDuration and usageCooldown)."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "ui/assets/main.js",
+      "consumables.lua",
+      "framework/frameworks.lua",
+      "config.lua new Locale (item_cooldown)",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
