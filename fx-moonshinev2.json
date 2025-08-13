@@ -167,5 +167,16 @@
       "s folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.6",
+    "changelog": [
+      "The issue of wagons not being deleted and items being duplicated during delivery has been fixed."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
