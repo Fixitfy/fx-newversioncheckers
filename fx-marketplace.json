@@ -10,5 +10,20 @@
     "updateFiles": [
       "The whole file structure has been updated. If you want to use this version without any problems, back up your folder and use the new folder without making any changes"
     ]
+  },
+  {
+    "version": "2.5",
+    "changelog": [
+      "All reported bugs have been fixed.",
+      "Dupe issues fixed"
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework folder",
+      "ui/assets/main.js",
+      "fxmanifest.lua",
+      "config.lua / New Locale"
+    ]
   }
 ]
