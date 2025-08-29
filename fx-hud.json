@@ -84,12 +84,15 @@
     "version": "3.8",
     "changelog": [
       "Recharge Feature added. New Config.RechargeHuds",
-      "New code added that refills the player's stamina while swimming."
+      "New code added that refills the player's stamina while swimming.",
+      "The Animation Failed issue experienced by some customers has been resolved."
     ],
     "updateFiles": [
       "fxmanifest.lua",
       "c folder",
       "s folder",
+      "consumables.lua all Config.Animations",
+      "consumables.lua change Config.DoAnim",
       "config.lua New Config.RechargeHuds",
       "config.lua New Locale cantuseitemwater"
     ]
