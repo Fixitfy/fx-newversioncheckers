@@ -30,5 +30,15 @@
       "Update all files except the Config.Stores table",
       "New Config check Discord"
     ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "A daily sales limit/stock feature has been added."
+    ],
+    "updateFiles": [
+      "Update all files except the config.lua",
+      "New Config check Discord"
+    ]
   }
 ]
