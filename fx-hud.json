@@ -79,5 +79,19 @@
       "ui folder",
       "Update the entire folder; new files have been added and important changes have been made."
     ]
+  },
+  {
+    "version": "3.8",
+    "changelog": [
+      "Recharge Feature added. New Config.RechargeHuds",
+      "New code added that refills the player's stamina while swimming."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder",
+      "config.lua New Config.RechargeHuds",
+      "config.lua New Locale cantuseitemwater"
+    ]
   }
 ]
