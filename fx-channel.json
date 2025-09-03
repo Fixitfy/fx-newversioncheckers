@@ -1,1 +1,27 @@
-
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Update Recommended Version"
+    ],
+    "updateFiles": [
+      "stream folder",
+      "config.lua",
+      "fxmanifest.lua",
+      "versionchecker.lua"
+    ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "All reported bugs have been fixed.",
+      "Please use this version"
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "config.lua",
+      "versionchecker.lua"
+    ]
+  }
+]
