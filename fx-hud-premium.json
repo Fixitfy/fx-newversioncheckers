@@ -58,6 +58,22 @@
       "config.lua new Locale (item_cooldown)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.6",
+    "changelog": [
+      "Fixed animation failed error.."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "s/opensource.lua",
+      "consumables.lua all Config.Animations and Config.DoAnim",
+      "framework/frameworks.lua",
+      "config.lua new Locale (interaction_failed) and (cantuseitemwater)",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
