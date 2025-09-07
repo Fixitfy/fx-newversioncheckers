@@ -74,6 +74,22 @@
       "config.lua new Locale (interaction_failed) and (cantuseitemwater)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+      "All reported bugs have been fixed. Important update please apply.."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "s/opensource.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
