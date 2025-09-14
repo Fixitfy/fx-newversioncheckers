@@ -40,5 +40,16 @@
       "Update all files except the config.lua",
       "New Config check Discord"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "sellStock and buyStock feature added",
+      "Updated design"
+    ],
+    "updateFiles": [
+      "Update all files except the config.lua",
+      "New Config check Discord"
+    ]
   }
 ]
