@@ -55,7 +55,8 @@
   {
     "version": "3.5",
     "changelog": [
-      "Fixed an error when there were no pages left in the book."
+      "Fixed an error when there were no pages left in the book.",
+      "New Locale = nofound_page"
     ],
     "updateFiles": [
       "c.lua",
