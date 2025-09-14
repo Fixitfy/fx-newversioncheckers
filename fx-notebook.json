@@ -51,6 +51,19 @@
       "ui/js/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.5",
+    "changelog": [
+      "Fixed an error when there were no pages left in the book."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
