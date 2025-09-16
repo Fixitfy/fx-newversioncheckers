@@ -24,7 +24,8 @@
     "version": "1.9",
     "changelog": [
       "In addition to job, group purchasing feature has been added to pets. Valid for Vorp.",
-      "See the discord update channel for an example or look at the first pet in the original config.lua."
+      "See the discord update channel for an example or look at the first pet in the original config.lua.",
+      "The client export you will use in your other scripts has been created. Detailed information about IsEntityPet export has been placed in USE-EXPORT.md."
     ],
     "updateFiles": [
       "s/s.lua",
