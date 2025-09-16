@@ -19,5 +19,17 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.9",
+    "changelog": [
+      "In addition to job, group purchasing feature has been added to pets. Valid for Vorp.",
+      "See the discord update channel for an example or look at the first pet in the original config.lua."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
