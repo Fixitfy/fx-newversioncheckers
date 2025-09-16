@@ -29,6 +29,7 @@
     ],
     "updateFiles": [
       "s/s.lua",
+      "c/c.lua",
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
