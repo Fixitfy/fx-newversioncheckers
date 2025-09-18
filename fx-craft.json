@@ -134,5 +134,25 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.6",
+    "changelog": [
+      "All known bugs fixed.",
+      "When you install a prop and try to delete it, you get a prop not found error..",
+      "Added the ability to not install in Cities when you install Prop"
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "s/opensource.lua",
+      "c/c.lua",
+      "c/opensource.lua",
+      "config.lua New Locale",
+      "config.lua New Town Setting",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
