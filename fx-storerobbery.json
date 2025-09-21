@@ -8,5 +8,15 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "The Fixitfy Store Heist scenario has been completely re-coded. The full fix and oneysnc version is now uploaded to keymaster.",
+      "Delete the old version you have and download and edit the new file. Do not transfer any code from the old file to the new file. This is a completely new script."
+    ],
+    "updateFiles": [
+      "All files (New Script)",
+    ]
   }
 ]
