@@ -18,5 +18,16 @@
     "updateFiles": [
       "All files (New Script)",
     ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "All bugs reported after the release of 2.0 have been fixed. Everything will now work smoothly, and the dupe issue has been prevented."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
