@@ -29,5 +29,18 @@
       "s folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.2",
+    "changelog": [
+      "A custom progress bar has been added upon request.",
+      "A feature to set the time for committing a robbery has been added.",
+      "The money collection and animations have been improved.",
+      "The issue where some users saw values like 9.5999999 in the payment section has been fixed.",
+      "I guarantee you won't find another script that works this smoothly in-store and has an anti-cheat feature that lets you rob with other players at the same time. Enjoy using it..."
+    ],
+    "updateFiles": [
+      "Update all files. Future updates will only be file-focused. The script has been fully upgraded to the recommended version. You can use it without any issues."
+    ]
   }
 ]
