@@ -15,14 +15,13 @@
   {
     "version": "2.0",
     "changelog": [
-      "All reported bugs have been fixed.",
-      "Please use this version"
+      "The FX-Goldsearch script has been completely revamped. Table records will no longer be stored in SQL; instead, they will be saved in a more optimized and trouble-free JSON file. This is the latest recommended version. Support for older versions will no longer be provided.",
+      "Delete the old folder and the old fx_goldsearch SQL file. Download the latest folder and make changes using the new config.",
+      "All reported errors have been fixed. All reported slot spam issues for Rsg have been fixed.",
+      "All created tables will now be stored in the spawnProp.json file."
     ],
     "updateFiles": [
-      "c folder",
-      "s folder",
-      "config.lua",
-      "versionchecker.lua"
+      "Delete the old folder and the old SQL file; you won't need the SQL file anymore. Use the new fx-goldsearch folder directly."
     ]
   }
 ]
