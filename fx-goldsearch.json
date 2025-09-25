@@ -24,5 +24,20 @@
     "updateFiles": [
       "Delete the old folder and the old SQL file; you won't need the SQL file anymore. Use the new fx-goldsearch folder directly."
     ]
-  }
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "All reported errors have been fixed.",
+      "Config.Locale has been updated."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "framework folder",
+      "config.lua",
+      "fxmanifest.lua",
+      "versionchecker.lua"
+    ]
+  },
 ]
