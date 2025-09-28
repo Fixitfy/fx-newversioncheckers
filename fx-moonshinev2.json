@@ -179,5 +179,24 @@
       "s folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+      "Added progressbar feature before completing moonshine delivery.",
+      "Added the ability to notify sheriffs when progressbar starts during delivery.",
+      "Fixed issues when a player exits and re-enters the game in a moonshine shell.",
+      "Now if you exit the game in the shell, it will load the same shell you re-entered."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "framework folder",
+      "ui/main.js",
+      "new File shellData.json",
+      "config.lua new Locale deliveryProgress ",
+      "config.lua new Config Config.Progress",
+      "fxmanifest.lua"
+    ]
   }
 ]
