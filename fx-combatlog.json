@@ -1,14 +1,12 @@
 [
   {
-    "version": "1.0",
+    "version": "1.1",
     "changelog": [
       "All reported bugs have been fixed.",
       "Please use this version"
     ],
     "updateFiles": [
-      "c folder",
-      "s folder",
-      "fxmanifest.lua"
+      "Delete the old file. Download the new one.",  
     ]
   },
 ]
