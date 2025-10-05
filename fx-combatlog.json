@@ -9,4 +9,14 @@
       "Delete the old file. Download the new one.",  
     ]
   },
+  {
+    "version": "1.2",
+    "changelog": [
+      "The reported errors in the Vorp framework have been fixed. Please check the Vorp installation file again and reinstall the latest version. Everything has been reorganized..",
+      "Update the LoadPlayerComponents function again. Check the vorp-setup file."
+    ],
+    "updateFiles": [
+      "Delete the old file. Download the new one.",  
+    ]
+  },
 ]
