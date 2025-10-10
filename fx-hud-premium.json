@@ -90,6 +90,21 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "The freezing issue with Hud's has been resolved..",
+      "The temperatureEffect feature has been added to consumables.lua. For example, drinking a coffee will warm you up for 10 seconds."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/index.html",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
