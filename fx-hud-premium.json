@@ -105,6 +105,21 @@
       "ui/index.html",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.9",
+    "changelog": [
+      "The bugs reported since the 1.8 update have been fixed.",
+      "The microphone icon has changed and a blinking animation has been added when speaking.",
+      "When you click the Change Position button, a grid will now appear in the background. This will allow you to create a more symmetrical layout.",
+      "The announcement feature has been added. For more information, check Discord.(Config.AnnounceCommand)"
+    ],
+    "updateFiles": [
+      "c folder(all files)",
+      "s folder(all files)",
+      "ui folder(all files)",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
