@@ -19,4 +19,14 @@
       "Delete the old file. Download the new one.",  
     ]
   },
+  {
+    "version": "1.3",
+    "changelog": [
+      "The reported errors have been fixed.",
+      "Add config Config.RestartLoadDevCommand"
+    ],
+    "updateFiles": [
+      "Delete the old file. Download the new one.",  
+    ]
+  }
 ]
