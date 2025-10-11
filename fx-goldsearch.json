@@ -40,4 +40,15 @@
       "versionchecker.lua"
     ]
   },
+  {
+    "version": "2.2",
+    "changelog": [
+      "The issue of not working when Config.UseTarget is set to true has been fixed."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "fxmanifest.lua"
+    ]
+  },
 ]
