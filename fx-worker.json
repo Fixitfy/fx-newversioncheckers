@@ -81,5 +81,15 @@
       "s/s.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "When you send a worker to a job, if you recall them, the blip was not being deleted. Now it is deleted."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
