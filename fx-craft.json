@@ -154,5 +154,17 @@
       "ui/assets/style.js",
       "fxmanifest.lua"
     ]
+  },
+    {
+    "version": "3.7",
+    "changelog": [
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
+      "Remove the old webhook code from config.lua"
+    ],
+    "updateFiles": [
+      "s folder",
+      "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
   }
 ]
