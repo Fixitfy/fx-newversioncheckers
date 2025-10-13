@@ -209,5 +209,23 @@
       "config_server.lua / New File",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.9",
+    "changelog": [
+      "The ability to install both prop-enabled and prop-free shells has been added.",
+      "An indicator has been added. A small detail that will help you find Moonshine Interiors. Check Discord for an example image.",
+      "Update information has been shared in detail on the Discord update channel.",
+      "The webhook system has been moved to config_server.lua. Delete the old webhook code in config.lua."
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "ui folder all files",
+      "config.lua New Setting check Discord",
+      "config.lua New Locale check Discord",
+      "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
   }
 ]
