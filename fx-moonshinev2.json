@@ -198,5 +198,16 @@
       "config.lua new Config Config.Progress",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update."
+    ],
+    "updateFiles": [
+      "s folder",
+      "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
   }
 ]
