@@ -155,7 +155,7 @@
       "fxmanifest.lua"
     ]
   },
-    {
+  {
     "version": "3.7",
     "changelog": [
       "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
@@ -164,6 +164,24 @@
     "updateFiles": [
       "s folder",
       "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "3.8",
+    "changelog": [
+      "The c/opensource.lua file has been edited. Minor improvements have been made. Thank you @DaNeo",
+      "The reported errors have been corrected.",
+      "Metadata feature added to crafting materials. Check Discord for more details.",
+      "Special craft animation has been added for gold bars and similar productions. Check out Discord for a sample video.",
+      "The image for the goldsmelth item has been added to the inventoryitems folder.",
+      "Check Discord for a sample craft item."
+    ],
+    "updateFiles": [
+      "s folder / all files",
+      "c folder / all files",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
       "fxmanifest.lua"
     ]
   }
