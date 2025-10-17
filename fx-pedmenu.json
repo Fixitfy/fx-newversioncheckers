@@ -26,5 +26,18 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "The entire ped list has been updated. All known peds have been added to peds.lua.",
+      "You will now be able to see how many peds are in the category on the main menu."
+    ],
+    "updateFiles": [
+      "ui/assets/style.css",
+      "ui/assets/main.js",
+      "peds.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
