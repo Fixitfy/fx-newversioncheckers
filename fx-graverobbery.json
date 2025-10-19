@@ -22,6 +22,7 @@
     "updateFiles": [
       "s folder",
       "c folder",
+      "versionchecker",
       "framework folder",
       "config.lua new Setting ActiveJobDistance",
       "config_server.lua / New File",
