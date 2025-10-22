@@ -45,5 +45,14 @@
     "updateFiles": [
       "All files"
     ]
+  },
+  {
+    "version": "1.6",
+    "changelog": [
+      "vorp_inventory has been adapted to the latest version, which includes fixes made in 4.3 on github."
+    ],
+    "updateFiles": [
+      "All files"
+    ]
   }
 ]
