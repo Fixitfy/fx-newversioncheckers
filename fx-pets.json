@@ -33,5 +33,20 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
+      "Remove the old webhook code from config.lua",
+      "If a player crashes or exits the game, any pet they spawned will be deleted."
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework/frameworks.lua",
+      "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
   }
 ]
