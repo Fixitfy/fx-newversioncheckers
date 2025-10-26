@@ -37,5 +37,20 @@
       "config_server.lua / New File",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.7",
+    "changelog": [
+      "The issue of items disappearing after purchase has been fixed.",
+      "The “Item not found in stash!” error has been fixed."
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "framework folder",
+      "ui/assets/main.js",
+      "fxmanifest.lua",
+      "config.lua / New Locale"
+    ]
   }
 ]
