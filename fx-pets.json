@@ -48,5 +48,16 @@
       "config_server.lua / New File",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "If you move away from your pet quickly and it cannot reach you, it will be automatically deleted. This way, other players will not be able to use your pet for hunting."
+    ],
+    "updateFiles": [
+      "c folder",
+      "config.lua / New Locale (petremovedfar)",
+      "fxmanifest.lua"
+    ]
   }
 ]
