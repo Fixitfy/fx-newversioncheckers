@@ -7,5 +7,19 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "All reported errors have been corrected.",
+      "Issues with the prompt and target systems have been fixed. ox_target / pc_interaction is compatible.",
+      "config.lua has been completely updated. Please use the latest config.lua."
+    ],
+    "updateFiles": [
+      "framework/frameworks.lua",
+      "fxmanifest.lua",
+      "c/c.lua",
+      "config.lua"
+    ]
   }
 ]
