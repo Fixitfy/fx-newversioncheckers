@@ -21,5 +21,20 @@
       "c/c.lua",
       "config.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "All reported errors have been fixed.",
+      "For the smoothest experience, set the Config.UseTarget system to true and use one of the target scripts.",
+      "config.lua has been completely updated. Please use the latest config.lua."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "config.lua All Settings",
+      "config_props.lua"
+    ]
   }
 ]
