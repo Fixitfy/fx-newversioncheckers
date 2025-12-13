@@ -120,6 +120,16 @@
       "ui folder(all files)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "The issue of hunger and thirst icons appearing too large has been fixed."
+    ],
+    "updateFiles": [
+      "ui/assets/style.css",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
