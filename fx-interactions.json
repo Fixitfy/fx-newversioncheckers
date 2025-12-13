@@ -50,7 +50,8 @@
       "fxmanifest.lua",
       "c/c.lua",
       "c/functions.lua",
-      "config.lua All Settings",
+      "config.lua New Setting Config.DisableControls",
+      "config.lua New Setting Config.Prompts",
       "config_props.lua",
       "config_animations.lua"
     ]
