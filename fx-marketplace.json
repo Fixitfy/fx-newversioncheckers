@@ -52,5 +52,15 @@
       "fxmanifest.lua",
       "config.lua / New Locale"
     ]
+  },
+  {
+    "version": "2.8",
+    "changelog": [
+      "Target compatibility has been added to interact with NPCs (ox_target, rsg-target..)"
+    ],
+    "updateFiles": [
+      "c/opensource.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
