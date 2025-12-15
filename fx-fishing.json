@@ -56,5 +56,15 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.9",
+    "changelog": [
+      "The issue of the rod not coming into your hand has been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
