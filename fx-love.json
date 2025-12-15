@@ -1,6 +1,6 @@
 [
   {
-    "version": "1.3",
+    "version": "1.4",
     "changelog": [
       "The issue of falling through the ground when interacting with a player has been fixed."
     ],
