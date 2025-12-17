@@ -55,5 +55,23 @@
       "config_props.lua",
       "config_animations.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "All reported errors have been fixed.",
+      "The feature allowing two people to sleep in one bed has been fixed.",
+      "When you cancel the animation using another key, distance control and animation control will now be performed, and you will not be able to teleport.",
+      "The Config.DisableControls table has been added. You can now specify which keys you cannot press while seated.",
+      "A feature allowing two people to sit on all benches has been added."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "config.lua All Config",
+      "config_props.lua",
+      "config_animations.lua"
+    ]
   }
 ]
