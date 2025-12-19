@@ -60,6 +60,7 @@
     ],
     "updateFiles": [
       "c/opensource.lua",
+      "config.lua add Setting Config.UseTarget",
       "fxmanifest.lua"
     ]
   }
