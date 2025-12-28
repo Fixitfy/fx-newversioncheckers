@@ -63,5 +63,19 @@
       "config.lua add Setting Config.UseTarget",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.9",
+    "changelog": [
+      "Metadata issues and the problem of metadata loss for products purchased at auction have been resolved."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "fxmanifest.lua"
+    ]
   }
 ]
