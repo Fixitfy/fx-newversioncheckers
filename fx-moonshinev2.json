@@ -227,5 +227,18 @@
       "config_server.lua / New File",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "The issue of smoke stopping during production in the book has been resolved.",
+      "The issue of receiving cheat warnings when you are not a cheater has been fixed.",
+      "The reported issues have been fixed."
+    ],
+    "updateFiles": [
+      "c/client.lua",
+      "s/server.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
