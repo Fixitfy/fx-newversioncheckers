@@ -184,5 +184,19 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.9",
+    "changelog": [
+      "The issue of experiencing problems and failing to obtain the product on the second or third consecutive crafting attempt when using handCraft has been fixed.",
+      "The issue of constantly refreshing the order page to retrieve items has been fixed."
+    ],
+    "updateFiles": [
+      "s folder / all files",
+      "c folder / all files",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "fxmanifest.lua"
+    ]
   }
 ]
