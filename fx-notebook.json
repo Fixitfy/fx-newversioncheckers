@@ -65,6 +65,24 @@
       "ui/js/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.6",
+    "changelog": [
+      "Security update: Fixed a potential NUI injection issue in notebook UI.",
+      "Notebook and paper contents are now handled as plain text only.",
+      "Added server-side sanitization and validation for notebook data.",
+      "Improved per-player notebook state handling.",
+      "Enhanced protection against abuse and spam attempts."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "fxmanifest.lua",
+      "config.lua"
+    ]
   }
 ]
 
