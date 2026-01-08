@@ -71,9 +71,12 @@
     "changelog": [
       "Security update: Fixed a potential NUI injection issue in notebook UI.",
       "Notebook and paper contents are now handled as plain text only.",
-      "Added server-side sanitization and validation for notebook data.",
-      "Improved per-player notebook state handling.",
-      "Enhanced protection against abuse and spam attempts."
+      "Added server-side sanitization and strict validation for notebook data.",
+      "Improved per-player notebook session and state handling.",
+      "Fixed an issue where notebook names could carry over between different notebooks.",
+      "Fixed an issue where shared job notebook images could appear on personal notebooks.",
+      "Fixed multiple notebook duplication edge cases when renaming or cutting pages.",
+      "Enhanced protection against abuse, spam attempts, and rapid save actions."
     ],
     "updateFiles": [
       "c.lua",
