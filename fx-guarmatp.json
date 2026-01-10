@@ -7,5 +7,23 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
-  }
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "Fixed: Open/Close hour logic now fully supports overnight ranges (e.g., 22:00-06:00) and 24:00 handling.",
+      "Added: requiredItem option for locations (if enabled, payment is skipped and item requirement is validated).",
+      "Added: Optional item removal on travel when requiredItem.removeItem = true.",
+      "UI: If requiredItem is set, the menu now shows a ticket icon and required item label instead of money."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "s folder",
+      "c folder",
+      "framework folder",
+      "ui folder all files"
+  ]
+}
+
 ]
