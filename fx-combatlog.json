@@ -28,5 +28,18 @@
     "updateFiles": [
       "Delete the old file. Download the new one.",  
     ]
-  }
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
+      "Remove the old webhook code from config.lua"
+    ],
+    "updateFiles": [
+      "s folder",
+      "config.lua delete webhook settings", 
+      "config_server.lua / New File",
+      "fxmanifest.lua"
+    ]
+  },
 ]
