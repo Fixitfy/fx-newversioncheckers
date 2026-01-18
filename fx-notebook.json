@@ -86,6 +86,27 @@
       "fxmanifest.lua",
       "config.lua"
     ]
-  }
+  },
+  {
+  "version": "3.7",
+  "changelog": [
+    "Fixed notebook name carrying over to other notebooks when saving without renaming.",
+    "Fixed UI state not resetting when opening different notebooks.",
+    "Fixed page turning crash caused by turn.js reinitialization issues.",
+    "Fixed page desync and errors with odd page counts in double-page mode.",
+    "Fixed incorrect item binding when saving notebooks (id/slot mismatch).",
+    "Improved notebook session consistency between client and server.",
+    "Stabilized page cutting and reopening behavior to prevent duplication issues."
+  ],
+  "updateFiles": [
+    "c.lua",
+    "s.lua",
+    "framework/frameworks.lua",
+    "ui/js/main.js",
+    "fxmanifest.lua",
+    "config.lua"
+  ]
+}
+
 ]
 
