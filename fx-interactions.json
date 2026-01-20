@@ -70,5 +70,21 @@
       "config_props.lua",
       "config_animations.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "Issues caused by bathroom interactions have been fixed.",
+      "Bathroom interactions are both prompt and target-oriented."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder",
+      "framework folder",
+      "ui/main.js",
+      "config_props.lua",
+      "config_animations.lua"
+    ]
   }
 ]
