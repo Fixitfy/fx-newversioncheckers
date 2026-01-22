@@ -122,6 +122,22 @@
       "fxmanifest.lua",
       "config.lua new Locales"
     ]
+  },
+  {
+    "version": "3.9",
+    "changelog": [
+      "Errors caused by the last update have been fixed.",
+      "This is the latest problem-free version, please use this version.",
+      "Sorry for so many updates, but it is stable now, thank you for your understanding.."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "framework/frameworks.lua",
+      "ui/js/main.js",
+      "fxmanifest.lua",
+      "config.lua new Locales"
+    ]
   }
 ]
 
