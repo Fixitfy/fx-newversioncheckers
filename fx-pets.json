@@ -59,5 +59,23 @@
       "config.lua / New Locale (petremovedfar)",
       "fxmanifest.lua"
     ]
-  }
+  },
+  {
+    "version": "2.2",
+    "changelog": [
+      "Fixed the health indicator issue in the prompt.",
+      "Pet health is now saved (including hunger and thirst).",
+      "Updated the revive item system.",
+      "Added revive/heal/go home actions to the right-click interaction."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "config.lua / New Locales (logRevive, logHeal, pethealed, petrevived)",
+      "config.lua / update Config.RightClickShortCut",
+      "config.lua / new Settings Config.PetStatSettings",
+      "fxmanifest.lua"
+    ]
+}
+
 ]
