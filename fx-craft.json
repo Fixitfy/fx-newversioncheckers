@@ -198,5 +198,19 @@
       "ui/assets/style.css",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "4.0",
+    "changelog": [
+      "The reported errors have been corrected.",
+      "This is the recommended version. Please apply this update."
+    ],
+    "updateFiles": [
+      "s folder / all files",
+      "c folder / all files",
+      "ui/assets/main.js",
+      "config.lua New Locales",
+      "fxmanifest.lua"
+    ]
   }
 ]
