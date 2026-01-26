@@ -76,5 +76,21 @@
       "config.lua / new Settings Config.PetStatSettings",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.3",
+    "changelog": [
+      "The attack function of the pet has been fixed. You can now cancel an attack when you tell a pet to attack. If the targeted pet dies, your pet will continue to follow you and will not attack.",
+      "The bug in the animation and commands has been fixed.",
+      "The reported errors have been corrected."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "ui/main.js",
+      "config.lua / New Locales (prompttextcancelattack)",
+      "config.lua / update Config.RightClickShortCut",
+      "fxmanifest.lua"
+    ]
   }
 ]
