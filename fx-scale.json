@@ -7,5 +7,15 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "The issue with Ped constantly updating its scale has been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
