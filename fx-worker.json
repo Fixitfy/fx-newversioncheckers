@@ -91,5 +91,19 @@
       "s/s.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "A profession check has been added when sending a worker to a job, so players who have left a profession will no longer be able to use profession workers.",
+      "The issue where the blip of workers was visible to another player when you sent a worker to work has been fixed.",
+      "The `requiredCharid` property has been added to `Config.Jobs`. See the original `config.lua` file for an example."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "config.lua added New Settings Config.Jobs/requiredCharid",
+      "fxmanifest.lua"
+    ]
   }
 ]
