@@ -53,4 +53,19 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "1.5",
+    "changelog": [
+      "The spam bug in the reload function when using Ped has been fixed.",
+      "A progress bar was added when reloading."
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/assets/index.html",
+      "fxmanifest.lua"
+    ]
+  }
 ]
