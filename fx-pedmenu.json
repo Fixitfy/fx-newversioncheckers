@@ -65,6 +65,7 @@
       "ui/assets/main.js",
       "ui/assets/style.css",
       "ui/assets/index.html",
+      "ui/assets/img/reload.png (new file)",
       "fxmanifest.lua"
     ]
   }
