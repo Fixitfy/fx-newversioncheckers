@@ -92,5 +92,20 @@
       "config.lua / update Config.RightClickShortCut",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.4",
+    "changelog": [
+      "The issue with recording hunger and thirst has been fixed.",
+      "The Config.PetStatSettings setting has been improved. Please update it."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "ui/main.js",
+      "config.lua / New Settings Config.PetStatSyncIntervalMS",
+      "config.lua / update Config.PetStatSettings",
+      "fxmanifest.lua"
+    ]
   }
 ]
