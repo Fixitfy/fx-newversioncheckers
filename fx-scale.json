@@ -17,5 +17,20 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Added admin command support to open the scale menu dynamically.",
+      "Added server event support for opening the menu from external scripts."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "c/functions.lua",
+      "s.lua",
+      "s/opensource.lua",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
