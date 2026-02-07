@@ -115,7 +115,8 @@
     ],
     "updateFiles": [
       "c/all files",
-      "s/all files"
+      "s/all files",
+      "fxmanifest.lua"
     ]
   }
 ]
