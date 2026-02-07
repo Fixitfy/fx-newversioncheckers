@@ -107,5 +107,15 @@
       "config.lua / update Config.PetStatSettings",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.5",
+    "changelog": [
+      "The -Reliable network event overflow- issue that occurred after the last update has been fixed.."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files"
+    ]
   }
 ]
