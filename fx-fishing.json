@@ -70,11 +70,14 @@
   {
     "version": "3.0",
     "changelog": [
-      "The ability to disable rod upgrades and automatically level up rods has been added.."
+      "The ability to disable rod upgrades and automatically level up rods has been added..",
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
+      "Don't forget to delete the old Config.Webhook table from config.lua."
     ],
     "updateFiles": [
       "c/c.lua",
       "s/s.lua",
+      "config_server.lua / New File",
       "config.lua",
       "fxmanifest.lua"
     ]
