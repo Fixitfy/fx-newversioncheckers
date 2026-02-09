@@ -66,5 +66,17 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "The ability to disable rod upgrades and automatically level up rods has been added.."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
