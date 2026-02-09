@@ -32,5 +32,16 @@
       "config.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "The issue of the pad you use to start the game extending and shrinking has been fixed.."
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
