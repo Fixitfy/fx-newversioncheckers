@@ -77,5 +77,18 @@
       "ui/assets/style.css",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "Issues with acquiring weapons and items, as well as other minor identified problems, have been fixed."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
