@@ -118,5 +118,16 @@
       "s/all files",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.6",
+    "changelog": [
+      "The issue of a pet dying again after you revive and recall it has been fixed."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "fxmanifest.lua"
+    ]
   }
 ]
