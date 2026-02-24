@@ -130,6 +130,19 @@
       "ui/assets/style.css",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "PvP HUD and PvP commands have been added. When you use the `/pvp` command, you can attack other players; when you use it again, you cannot attack them."
+    ],
+    "updateFiles": [
+      "c folder(all files)",
+      "s folder(all files)",
+      "ui folder(all files)",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
