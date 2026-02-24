@@ -140,7 +140,9 @@
       "c folder(all files)",
       "s folder(all files)",
       "ui folder(all files)",
-      "config.lua",
+      "new Config.UsePvpSystem",
+      "new Config.PvpCommand",
+      "config.lua update this/ Config.generateHudLayout / Config.currentHudColorData / Config.Locale / Config.HideHuds",
       "fxmanifest.lua"
     ]
   }
