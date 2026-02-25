@@ -51,4 +51,17 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "2.3",
+    "changelog": [
+      "The Weebhook system has been moved to config_server.lua to prevent dumps. Please apply this important update.",
+      "Remove the old webhook code from config.lua",
+      "The issue of players being left with buckets has been fixed."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "fxmanifest.lua"
+    ]
+  },
 ]
