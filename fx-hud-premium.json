@@ -145,6 +145,23 @@
       "config.lua update this/ Config.generateHudLayout / Config.currentHudColorData / Config.Locale / Config.HideHuds",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.2",
+    "changelog": [
+      "Armour HUD added. Check Discord for more details."
+    ],
+    "updateFiles": [
+      "c folder(all files)",
+      "s folder(all files)",
+      "ui folder(all files)",
+      "new armourHash",
+      "new Config.ArmourSettings",
+      "Config.InGameAdminHudLoadCommand",
+      "Config.CmdHudLoadAllPlayerCommand",
+      "config.lua update this/ Config.generateHudLayout / Config.currentHudColorData / Config.HideHuds",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
