@@ -86,5 +86,15 @@
       "config_props.lua",
       "config_animations.lua"
     ]
+  },
+    {
+    "version": "1.6",
+    "changelog": [
+      "The issue of the ground going underground, caused by the latest update, has been fixed."
+    ],
+    "updateFiles": [
+      "c folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
