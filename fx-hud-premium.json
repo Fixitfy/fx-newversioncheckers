@@ -163,6 +163,18 @@
       "config.lua update this/ Config.generateHudLayout / Config.currentHudColorData / Config.HideHuds",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.3",
+    "changelog": [
+      "Reported issues regarding Armor HUD and clothing have been fixed."
+    ],
+    "updateFiles": [
+      "c folder(all files)",
+      "s folder(all files)",
+      "new Config.ArmourSettings",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
