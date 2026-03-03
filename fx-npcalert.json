@@ -1,0 +1,11 @@
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "Bla bla bla.."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua"
+    ]
+  }
+]
