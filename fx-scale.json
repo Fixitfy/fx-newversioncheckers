@@ -43,5 +43,18 @@
       "s.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "Synchronization issues have been fixed. After the update, restart your server once for it to work properly.",
+    ],
+    "updateFiles": [
+      "c.lua",
+      "s.lua",
+      "config.lua Locale add en-tr-de",
+      "ui/style.css",
+      "fxmanifest.lua"
+    ]
   }
 ]
