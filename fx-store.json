@@ -60,5 +60,15 @@
     "updateFiles": [
       "s/opensource.lua"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "Fixed the issue where normal players were detected as cheaters."
+    ],
+    "updateFiles": [
+      "s folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
