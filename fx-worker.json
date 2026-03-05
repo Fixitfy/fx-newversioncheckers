@@ -105,5 +105,17 @@
       "config.lua added New Settings Config.Jobs/requiredCharid",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.6",
+    "changelog": [
+      "The issue of the blip not appearing on workers' uniforms has been fixed."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "config.lua added New Settings Config.DevCommand / Config.OpenMyWorkersMenu",
+      "fxmanifest.lua"
+    ]
   }
 ]
