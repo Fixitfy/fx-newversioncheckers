@@ -64,4 +64,17 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "2.4",
+    "changelog": [
+      "New features have been added. Added Config.PlaceAllMap - Config.Rewards - Config.BlacklistTowns settings in config",
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "config.lua / Added Config.PlaceAllMap - Config.Rewards - Config.BlacklistTowns settings in config ",
+      "Added New Locale -townerror-",
+      "fxmanifest.lua"
+    ]
+  },
 ]
