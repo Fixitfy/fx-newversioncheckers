@@ -7,5 +7,15 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "The issue of entering the pause menu when pressing Esc while closing some UIs has been fixed."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua"
+    ]
   }
 ]
