@@ -87,13 +87,24 @@
       "config_animations.lua"
     ]
   },
-    {
+  {
     "version": "1.6",
     "changelog": [
       "The issue of the ground going underground, caused by the latest update, has been fixed."
     ],
     "updateFiles": [
       "c folder",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+      "While in animation mode, you can now open the menu again and change the animation."
+    ],
+    "updateFiles": [
+      "c folder",
+      "config.lua / Config.Prompts",
       "fxmanifest.lua"
     ]
   }
