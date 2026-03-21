@@ -117,5 +117,20 @@
       "config.lua added New Settings Config.DevCommand / Config.OpenMyWorkersMenu",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+      "The issue causing worker data to be deleted due to the latest update has been resolved.",
+      "The Config.UseTarget property has been added."
+    ],
+    "updateFiles": [
+      "s fils",
+      "c files",
+      "framework/frameworks.lua",
+      "config.lua added New Settings Config.UseSql / Config.UseTarget",
+      "config.lua new Locale interaction_market / interaction_stash",
+      "fxmanifest.lua"
+    ]
   }
 ]
