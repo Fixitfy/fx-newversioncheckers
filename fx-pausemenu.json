@@ -17,5 +17,15 @@
       "fxmanifest.lua",
       "c/c.lua"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Players are now prevented from triggering animations while their hands are tied or handcuffed. This way, they won’t be able to exploit this glitch."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua"
+    ]
   }
 ]
