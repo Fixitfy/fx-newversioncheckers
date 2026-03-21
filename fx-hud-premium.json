@@ -175,6 +175,17 @@
       "new Config.ArmourSettings",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.4",
+    "changelog": [
+      "An animation effect has been added when equipping armor."
+    ],
+    "updateFiles": [
+      "c folder(all files)",
+      "Update Config.ArmourSettings",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
