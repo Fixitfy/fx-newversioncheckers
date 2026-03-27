@@ -240,5 +240,20 @@
       "s/server.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "added Config.RemoveStillSetting = 3 / Nobody (ONLY admins).",
+      "added Config.AllowMoonshineInShell / If true, you can set up a moonshine still inside the interior.",
+      "added new Locale interior_inside.",
+      "added new Locale customer_closed_time"
+    ],
+    "updateFiles": [
+      "c/client.lua",
+      "s/server.lua",
+      "config.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
