@@ -132,5 +132,15 @@
       "config.lua new Locale interaction_market / interaction_stash",
       "fxmanifest.lua"
     ]
-  }
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "The issue where workers would get stuck after a restart or fail to return once the timer expired has been fixed."
+    ],
+    "updateFiles": [
+      "s fils",
+      "fxmanifest.lua"
+    ]
+  },
 ]
