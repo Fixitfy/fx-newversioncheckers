@@ -90,5 +90,22 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "Fixed an issue where expired marketplace listings were not being automatically removed, which could block visibility of new items.",
+      "Added proper cleanup logic for expired marketplace entries to ensure database consistency.",
+      "Improved manual removal and cache reset handling for marketplace listings.",
+      "Resolved an issue where vorp-inventory images were not loading correctly.",
+      "Various minor fixes and performance improvements."
+    ],
+    "updateFiles": [
+      "c/all files",
+      "s/all files",
+      "framework/frameworks.lua",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
