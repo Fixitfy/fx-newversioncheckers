@@ -186,6 +186,22 @@
       "Update Config.ArmourSettings",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.5",
+    "changelog": [
+      "The issue of increased passenger stress levels while driving a train has been fixed. Only the driver will be affected.",
+      "The color and save issue in PvP after a restart has been fixed.",
+      "Update the pvp settings in fx_hud.sql."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "s folder(all files)",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
