@@ -27,5 +27,19 @@
       "fxmanifest.lua",
       "c/c.lua"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "The issue with the currency not updating has been fixed.",
+      "The conflict issue between the txAdmin and Vorp menus has been fixed.",
+      "Opening the pause menu while dead is disabled."
+    ],
+    "updateFiles": [
+      "c/ all files",
+      "s/ all fies",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
