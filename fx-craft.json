@@ -212,5 +212,19 @@
       "config.lua New Locales",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "4.1",
+    "changelog": [
+      "Mismatch errors have been fixed.",
+      "Timing errors have been corrected.",
+      "The prop table will be accessible to everyone unless there is a job query."
+    ],
+    "updateFiles": [
+      "s folder / all files",
+      "c folder / all files",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
