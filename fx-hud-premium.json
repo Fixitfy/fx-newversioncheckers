@@ -202,6 +202,19 @@
       "s folder(all files)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.6",
+    "changelog": [
+      "The issue of values ​​not being saved correctly when exiting and re-entering the game has been fixed.",
+      "The issue of incorrect health and stamina loading has been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s folder(all files)",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
