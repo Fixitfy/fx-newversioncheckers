@@ -215,6 +215,20 @@
       "s folder(all files)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.7",
+    "changelog": [
+      "Significant optimization has been achieved on both the client and server sides. VRAM cache values ​​have been reduced. Latency has been minimized.",
+      "Translations from the HTML and JS files have been moved to config.lua. You can change them directly from there."
+    ],
+    "updateFiles": [
+      "c folder all files",
+      "s folder(all files)",
+      "ui folder (all files)",
+      "framework folder",
+      "fxmanifest.lua"
+    ]
   }
 ]
 
