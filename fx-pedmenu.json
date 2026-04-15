@@ -68,5 +68,23 @@
       "ui/assets/img/reload.png (new file)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.6",
+    "changelog": [
+      "The issue of displaying 'name by name' in ped requests has been fixed. It will now display 'first name last name'.",
+      "Players whose ped requests have been approved by the admin will now be able to access their ped request instantly in their menu.",
+      "All text in HTML and JS has been moved to Config.Locale",
+      "Improvements have been made to the style.css file for all screens."
+    ],
+    "updateFiles": [
+      "s folder",
+      "c folder",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/assets/index.html",
+      "config.lua / Config.Locale",
+      "fxmanifest.lua"
+    ]
   }
 ]
