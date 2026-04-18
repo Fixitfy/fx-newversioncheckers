@@ -77,4 +77,27 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "2.5",
+    "changelog": [
+      "Added durability system to gold tables - tables take damage on each water fill",
+      "Added repair system - use Config.RepairItems to repair broken tables with hammer animation",
+      "Durability is saved to item metadata on table removal and restored on placement",
+      "Prompt title now shows water % and durability % with dynamic color (green/yellow/orange/red)",
+      "Added Config.Prompts system - all keybinds and hold times configurable from config.lua",
+      "Fixed water indicator stuck at 100% after updateTables refresh",
+      "Fixed water and durability resetting to 0 on script restart",
+      "Fixed BlacklistTowns bypass via preview prop - zone and town checks now run at placement confirmation",
+      "Fixed FXGetItemCount returning false for metadata items in VORP (no_item false positive)",
+      "Fixed async repair item check race condition for VORP framework",
+      "Added /detachtable command to remove stuck placement props",
+      "Added Config.DurabilityMultiplier - damage per water fill",
+      "Added Config.RepairItems - items required to repair table"
+    ],
+    "updateFiles": [
+      "config.lua / Added Config.Prompts, Config.DurabilityMultiplier, Config.RepairItems / Updated promptitle locale / Added repair locales",
+      "c folder / Durability prompt colors, new setupPrompt system, repair animation, placement prop cleanup",
+      "s folder / Durability tracking, repair event, VORP item check fix, metadata on table removal"
+    ]
+  }
 ]
