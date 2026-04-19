@@ -81,5 +81,15 @@
       "config.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "The 'You need to earn XP first' error in the upgrade menu has been fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
