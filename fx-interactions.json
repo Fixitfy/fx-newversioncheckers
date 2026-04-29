@@ -107,5 +107,20 @@
       "config.lua / Config.Prompts",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "Wall bypass exploit has been fixed. Players can no longer select objects behind walls to teleport into restricted areas via sit animations.",
+      "Wall detection (raycast) is now performed before any interaction animation starts.",
+      "The interaction prompt is no longer shown for objects blocked by walls.",
+      "New locale key 'interaction_wall_blocked' added (EN / TR / DE)."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "config.lua / New Locale Key: interaction_wall_blocked"
+    ]
   }
 ]
