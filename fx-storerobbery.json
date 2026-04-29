@@ -16,7 +16,7 @@
       "Delete the old version you have and download and edit the new file. Do not transfer any code from the old file to the new file. This is a completely new script."
     ],
     "updateFiles": [
-      "All files (New Script)",
+      "All files (New Script)"
     ]
   },
   {
@@ -41,6 +41,18 @@
     ],
     "updateFiles": [
       "Update all files. Future updates will only be file-focused. The script has been fully upgraded to the recommended version. You can use it without any issues."
+    ]
+  },
+  {
+    "version": "2.3",
+    "changelog": [
+      "Fixed a bug where the progress bar continued even after the player walked away from the safe during a robbery.",
+      "The robbery is now automatically cancelled and the server state is properly reset when the player leaves the safe area."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "config.lua",
+      "fxmanifest.lua"
     ]
   }
 ]
