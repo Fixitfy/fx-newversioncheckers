@@ -91,5 +91,17 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.2",
+    "changelog": [
+      "Issues with rod elevation have been resolved. Please use the latest version of the inventory.",
+      "The fishing issue in RSG has been fixed.",
+      "The minor errors that were reported have been corrected."
+    ],
+    "updateFiles": [
+      "Update all files",
+      "fxmanifest.lua"
+    ]
   }
 ]
