@@ -234,12 +234,16 @@
     "version": "2.8",
     "changelog": [
       "The errors identified in the portrayal of smoking among female and male characters have been corrected.",
-      "The error that occurred when resetting the menu to its default settings has been fixed."
+      "The error that occurred when resetting the menu to its default settings has been fixed.",
+      "The issue where cigar, pipe, and cigarette effects (goldCore etc.) were not applied after use has been fixed.",
+      "The issue where the HUD would sometimes disappear on its own has been fixed.",
+      "Config.Debug option added — when set to true, hideHud export calls are logged to the F8 console."
     ],
     "updateFiles": [
       "c folder / all files",
       "ui/assets/main.js",
-      "consumables.lua (Config.Animations block only — see update notes)"
+      "consumables.lua (Config.Animations block only — see update notes)",
+      "config.lua / Add new line: Config.Debug = false — (see update notes)"
     ]
   }
 ]
