@@ -206,7 +206,7 @@
   {
     "version": "2.6",
     "changelog": [
-      "The issue of values ​​not being saved correctly when exiting and re-entering the game has been fixed.",
+      "The issue of values not being saved correctly when exiting and re-entering the game has been fixed.",
       "The issue of incorrect health and stamina loading has been fixed."
     ],
     "updateFiles": [
@@ -219,7 +219,7 @@
   {
     "version": "2.7",
     "changelog": [
-      "Significant optimization has been achieved on both the client and server sides. VRAM cache values ​​have been reduced. Latency has been minimized.",
+      "Significant optimization has been achieved on both the client and server sides. VRAM cache values have been reduced. Latency has been minimized.",
       "Translations from the HTML and JS files have been moved to config.lua. You can change them directly from there."
     ],
     "updateFiles": [
@@ -229,6 +229,17 @@
       "framework folder",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.8",
+    "changelog": [
+      "The errors identified in the portrayal of smoking among female and male characters have been corrected.",
+      "The error that occurred when resetting the menu to its default settings has been fixed."
+    ],
+    "updateFiles": [
+      "c folder / all files",
+      "ui/assets/main.js",
+      "consumables.lua (Config.Animations block only — see update notes)"
+    ]
   }
 ]
-
