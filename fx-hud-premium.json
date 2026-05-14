@@ -245,5 +245,21 @@
       "consumables.lua (Config.Animations block only — see update notes)",
       "config.lua / Add new line: Config.Debug = false — (see update notes)"
     ]
+  },
+  {
+    "version": "2.9",
+    "changelog": [
+      "Core images (health/stamina etc.) no longer disappear permanently after hideHud/showHud cycles.",
+      "hideHud export is now persistent — internal threads (death, map, cinematic) can no longer override an external hideHud call. Call showHud() from the same script to restore it.",
+      "New export added: clearDirty() — clears all ped dirt, blood and damage decals, resets dirty stat to 0.",
+      "Bug fix: getStatus('armour') was incorrectly returning stress value instead of armour."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "ui/assets/main.js",
+      "EXPORTS.md",
+      "fxmanifest.lua"
+    ]
   }
+
 ]
