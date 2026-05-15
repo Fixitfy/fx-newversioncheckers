@@ -7,5 +7,31 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "[FIX] Door Key (metalKey) permission: players with a door-specific key in inventory can now open the door even without a job/group requirement.",
+      "[FIX] VORP inventory metadata: metadata stored as a JSON string was not being parsed, causing all metalKey door checks to silently fail.",
+      "[FIX] canAccessDoor export: was incorrectly using FXHasItem (any key) instead of FXHasDoorKey (door-specific key) — any keyholder could access any metalKey door.",
+      "[FIX] Wrong notification on lock/unlock: added server-side per-door toggle cooldown to prevent a race condition (VORP async Citizen.Await) where two concurrent checkPermission coroutines both reached the toggle line, causing the door to double-toggle and show the reversed message.",
+      "[CHANGE] CREATE KEYS is now a separate button in edit mode — key creation is fully decoupled from the Save button. No more accidental key creation on every save.",
+      "[CHANGE] CREATE KEYS button is disabled (with hint text) in create mode; it becomes active after the door is saved and opened in edit mode.",
+      "[ADD] Locale-linked descriptions added under each Settings checkbox (LOCKED, HIDDEN LOCK, LOCKPICKABLE, ALERT LAW, DOOR KEY) in all 3 languages (en/de/tr).",
+      "[ADD] New server event: fx-doorlock:server:createDoorKeys — standalone key creation handler used by the dedicated CREATE button.",
+      "[ADD] Enhanced debug logging for charId permission checks and VORP blank-key counting.",
+      "[ADD] exports.md — full documentation of all server-side exports (addDoorPermission, canAccessDoor, setDoorLocked, addCharId, removeCharId, getDoor, getAllDoors)."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "framework/frameworks.lua",
+      "server/main.lua",
+      "client/main.lua",
+      "client/functions.lua",
+      "ui/index.html",
+      "ui/main.js",
+      "exports.md"
+    ]
   }
 ]
