@@ -144,21 +144,21 @@
     ]
   },
   {
-  "version": "1.9",
-  "changelog": [
-    "Fixed: Completed sales paying out money again on every restart",
-    "Fixed: Client crash when worker job is missing from Config.Jobs",
-    "Fixed: RSG FXGetPlayerByCharid wrong variable (src -> source)",
-    "Fixed: consumeFood crash when player data is not found",
-    "Fixed: sellWorker sale UID collision on tables with holes",
-    "Fixed: generateWorker crash when Config.Jobs is empty",
-    "Fixed: Server crash on restore if worker's job was removed from config",
-    "Fixed: SQL loader crashing on NULL row data"
-  ],
-  "updateFiles": [
-    "s/s.lua",
-    "c/c.lua",
-    "framework/frameworks.lua"
-  ]
-}
+    "version": "1.9",
+    "changelog": [
+      "Fixed: Completed sales paying out money again on every restart",
+      "Fixed: Client crash when worker job is missing from Config.Jobs",
+      "Fixed: RSG FXGetPlayerByCharid wrong variable (src -> source)",
+      "Fixed: consumeFood crash when player data is not found",
+      "Fixed: sellWorker sale UID collision on tables with holes",
+      "Fixed: generateWorker crash when Config.Jobs is empty",
+      "Fixed: Server crash on restore if worker's job was removed from config",
+      "Fixed: SQL loader crashing on NULL row data"
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "framework/frameworks.lua"
+    ]
+  }
 ]
