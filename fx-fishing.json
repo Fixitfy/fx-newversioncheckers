@@ -103,5 +103,18 @@
       "Update all files",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "Fixed: Upgrading an enchanted fishing rod was giving an extra rod instead of replacing the old one.",
+      "Fixed: XP was not resetting to 0 after a successful rod upgrade.",
+      "Fixed: Old rods missing oltaID are now automatically migrated on first use without any XP loss."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
