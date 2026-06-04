@@ -7,5 +7,16 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "rsg-core bugs have been fixed."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "framework/frameworks.lua",
+      "server files"
+    ]
   }
 ]
