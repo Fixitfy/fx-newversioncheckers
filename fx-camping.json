@@ -18,5 +18,18 @@
       "framework/frameworks.lua",
       "server files"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "rsg-core bugs have been fixed."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "framework/frameworks.lua",
+      "server files",
+      "client files",
+      "ui folder"
+    ]
   }
 ]
