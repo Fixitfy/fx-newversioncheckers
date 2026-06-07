@@ -129,5 +129,19 @@
       "s/all files",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.7",
+    "changelog": [
+      "Fixed an issue where purchased pet previews appeared underground in the shop.",
+      "Fixed shop NPCs sometimes disappearing or not appearing when multiple shop locations are configured.",
+      "Fixed shop NPCs not respawning correctly after the game engine removed them in the background.",
+      "Shop NPCs now appear faster when approaching a store location.",
+      "Improved ground placement accuracy for shop NPCs."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua"
+    ]
   }
 ]
