@@ -7,5 +7,25 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  }, 
+  {
+    "version": "1.1",
+    "changelog": [
+      "Fixed an issue where female characters were occasionally recognized as male, preventing certain accessories from being equipped.",
+      "VORP item registration SQL updated. Simply re-run fx_accessories.sql — your existing data will be preserved.",
+      "An additional security layer has been added to the /giveadminpanel command.",
+      "SQL and Lua outputs in the admin panel have been corrected and are now ready to use with a simple copy-paste.",
+      "New feature: Shop balance info can now be hidden when the cart is empty. (Config.HideBalanceWhenCartEmpty)"
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua / new: Config.HideBalanceWhenCartEmpty",
+      "fx_accessories.sql",
+      "c/functions.lua",
+      "c/shops.lua",
+      "s/s.lua",
+      "ui/index.html",
+      "ui/script.js"
+    ]
   }
 ]
