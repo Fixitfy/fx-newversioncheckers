@@ -108,4 +108,18 @@
       "fxmanifest.lua"
     ]
   }
+  {
+  "version": "3.2",
+  "changelog": [
+    "Added a new Config.UseGold option. Set it to false to prevent players from listing items with gold as the payment type.",
+    "When UseGold is disabled, the gold option is automatically hidden in the listing form.",
+    "Added a server-side check to block gold-based listings even if the UI is bypassed."
+  ],
+  "updateFiles": [
+    "config.lua",
+    "c/c.lua",
+    "s/s.lua",
+    "ui/assets/main.js"
+  ]
+}
 ]
