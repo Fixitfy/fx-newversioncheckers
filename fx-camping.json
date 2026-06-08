@@ -31,5 +31,18 @@
       "client files",
       "ui folder"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "Fixed an issue where items were not appearing in wagon storage after using Move Camp on RSG.",
+      "Fixed an issue where the wagon disappeared and caused an error when rejoining the server."
+    ],
+    "updateFiles": [
+      "framework/frameworks.lua",
+      "server/camp.lua",
+      "client/camp.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
