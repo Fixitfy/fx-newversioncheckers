@@ -39,5 +39,19 @@
       "config.lua/Config.ForceShowLoop",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "Fixed a bug that caused a script error when entering a private room.",
+      "Fixed an issue where the screen would go black and stay that way after entering a private room.",
+      "Fixed a bug that prevented the /dancers command from working correctly for certain jobs.",
+      "Improved overall stability of the private room system."
+    ],
+    "updateFiles": [
+      "framework/frameworks.lua",
+      "s/s.lua",
+      "c/c.lua"
+    ]
   }
 ]
