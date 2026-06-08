@@ -260,6 +260,23 @@
       "EXPORTS.md",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "Fixed an issue where players could fire weapons while on a horse or in a vehicle with PvP disabled.",
+      "Weapon drawing and aiming now work correctly in all states (on foot, horse, vehicle) when PvP is disabled.",
+      "Extended fire prevention to cover all vehicle types: horse, carriage, boat, draft vehicle, and passenger seat.",
+      "Added voice range proximity circle: a ground ring is now drawn when voice range changes, with configurable display time.",
+      "Voice range circle now supports per-range colors via Config.VoiceAndProximity.CircleRangeColors (separate color for each range level).",
+      "Added Config.VoiceAndProximity config block (ShowSpeakerIcon, VoiceRangeChangeUi, ShowRangeCircle, CircleShowTime, CircleRangeColors).",
+      "Fixed VORP inventory version detection failing for multi-part version strings (e.g. 4.0.1), which caused food and drink items to stop working.",
+      "Fixed RSG inventory item removal crash when item had no remainingUsage metadata."
+    ],
+    "updateFiles": [
+      "c/opensource.lua",
+      "framework/frameworks.lua",
+      "config.lua"
+    ]
   }
-
 ]
