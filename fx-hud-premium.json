@@ -276,7 +276,10 @@
     "updateFiles": [
       "c/opensource.lua",
       "framework/frameworks.lua",
-      "config.lua"
+      "config.lua",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/index.html"
     ]
   }
 ]
