@@ -66,10 +66,10 @@
     "version": "1.06",
     "changelog": [
       "Fixed a major bug in my withdrawal!",
-      "Known bugs fixed",
+      "Known bugs fixed"
     ],
     "updateFiles": [
-      "s/server.lua",
+      "s/server.lua"
     ]
   },
   {
@@ -254,6 +254,20 @@
       "s/server.lua",
       "config.lua",
       "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "2.2",
+    "changelog": [
+      "Fixed an issue where players would get stuck and unable to move after harvesting crops multiple times.",
+      "Fixed an issue where cancelling a harvest would permanently freeze the player.",
+      "Shell data is now properly cleaned up when a moonshine operation is removed.",
+      "Improved overall stability of the harvesting system."
+    ],
+    "updateFiles": [
+      "framework/framework.lua",
+      "fxmanifest.lua",
+      "c/farming.lua"
     ]
   }
 ]
