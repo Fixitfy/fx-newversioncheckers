@@ -11,4 +11,15 @@
       "s folder"
     ]
   }
+  {
+  "version": "1.5",
+  "changelog": [
+    "Fixed an issue where the target player would fall underground when accepting an animation request.",
+    "Fixed the target player completely disappearing into the ground on high-latency servers.",
+    "The target player's movement is now properly stopped before the animation begins, resulting in more stable animation positioning."
+  ],
+  "updateFiles": [
+    "c/c.lua"
+  ]
+}
 ]
