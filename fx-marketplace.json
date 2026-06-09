@@ -109,7 +109,7 @@
     ]
   }
   {
-  "version": "3.2",
+  "version": "3.2.1",
   "changelog": [
     "Added a new Config.UseGold option. Set it to false to prevent players from listing items with gold as the payment type.",
     "When UseGold is disabled, the gold option is automatically hidden in the listing form.",
