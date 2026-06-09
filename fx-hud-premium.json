@@ -262,7 +262,7 @@
     ]
   },
   {
-    "version": "3.0",
+    "version": "3.0.1",
     "changelog": [
       "Fixed an issue where players could fire weapons while on a horse or in a vehicle with PvP disabled.",
       "Weapon drawing and aiming now work correctly in all states (on foot, horse, vehicle) when PvP is disabled.",
