@@ -281,5 +281,17 @@
       "ui/assets/style.css",
       "ui/index.html"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "When PVP is disabled, players can no longer attack other players while on horseback or inside a vehicle. Previously, only attacks on foot were blocked, leaving this as an exploit.",
+      "Fixed an issue where the hideHud / showHud exports were not working reliably. The softRefreshHud function was overriding active export states, causing the HUD to reappear unexpectedly. This has been corrected and exports now behave stably."
+    ],
+    "updateFiles": [
+      "c/opensource.lua",
+      "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
   }
 ]
