@@ -160,5 +160,19 @@
       "c/c.lua",
       "framework/frameworks.lua"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "Added Config.SpawnWorkerNpcs — if false, worker NPCs are not spawned client-side while working",
+      "Added Config.GlobalNpc — if false, each player only sees their own worker NPCs and has independent zone slots (recommended for 150+ player servers to solve OneSync 32-entity limit)"
+    ],
+    "updateFiles": [
+      "config.lua added New Settings Config.SpawnWorkerNpcs / Config.GlobalNpc",
+      "s/s.lua",
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
+
 ]
