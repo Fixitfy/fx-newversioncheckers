@@ -29,4 +29,18 @@
       "fxmanifest.lua"
     ]
   },
+  {
+    "version": "1.3",
+    "changelog": [
+      "Fixed a crash that caused the script to stop working entirely when the digging animation started on RSG framework servers.",
+      "Fixed a bug that allowed starting a second robbery while one was already in progress."
+    ],
+    "updateFiles": [
+      "framework/framework.lua",
+      "c/c.lua",
+      "s/s.lua",
+      "s/opensource.lua",
+      "fxmanifest.lua"
+    ]
+  }
 ]
