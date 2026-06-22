@@ -143,5 +143,43 @@
       "c/c.lua",
       "c/opensource.lua"
     ]
+  },
+  {
+  "version": "2.8",
+  "changelog": [
+    "[FIXED] Fixed an issue where preview animals in the pet shop would fall underground.",
+    "[FIXED] Fixed baby pet spawning 1 unit below the configured Z coordinate.",
+    "[FIXED] Fixed pet attacking non-targeted NPCs, players, and especially its own owner during combat. Relationship groups are now isolated per attack and restored on cancel.",
+    "[FIXED] Fixed pet failing to return to follow mode after an attack ended.",
+    "[CHANGED] config.lua has been split into three separate files for easier maintenance. Move Config.Pets to config_pets.lua, Config.Markets and Config.PetMarket to config_shop.lua, Config.Animations, Config.RightClickShortCut and Config.PetCommands to config_animations.lua, then remove those tables from the old config.lua.",
+    "[CHANGED] All system notification texts have been moved to locales.lua. Language can be set via Config.Language as 'en' or 'tr'.",
+    "[CHANGED] Attack system rewritten from scratch. Issuing the attack command again cancels it immediately. Attack also auto-cancels when the target dies or distance limits are exceeded.",
+    "[NEW] New animations added for ground pets and bird-type pets. Birds now play a reaction animation when the player looks at them.",
+    "[NEW] config_pets.lua — All per-animal properties (scale, attack capability, aging, etc.) are now managed in this file.",
+    "[NEW] config_shop.lua — Shop locations, NPCs, and product lists are now managed in this file.",
+    "[NEW] config_animations.lua — Animation lists, right-click shortcuts, and pet commands are now managed in this file.",
+    "[NEW] locales.lua — All system messages are now centrally managed in this file.",
+    "[NEW] Mirror Mode — Your pet responds to your in-game actions in real time. Crouching makes your pet sit. Looking at your pet triggers a beg animation. Activate via the Mirror option in the right-click menu or toggle with Config.Mirror.",
+    "[NEW] Mirror Mode — Attack behavior for combat-capable pets: if Mirror Mode is active and you shoot at a target, your pet automatically attacks that target. Shooting again or issuing the cancel command stops the attack and returns the pet to follow.",
+    "[NEW] Mirror Mode — Bird orbit behavior: if Mirror Mode is active and you aim at a locked target, bird-type pets will orbit around that target at a 4m radius and 3m height.",
+    "[NEW] Mirror Mode — Bird shoulder perch: when Mirror Mode is active, press J to have your bird land on your shoulder. The bird follows player movement, lifts off when the player aims, and returns to the shoulder afterward. The original carry/pickup feature for birds is still available and has not been removed.",
+    "[NEW] Attack Watchdog System — The attack state is monitored in the background. If the pet moves more than 60m from its owner or 35m from the target, the attack is automatically cancelled and the pet returns to follow.",
+    "[NEW] Steam Access Lock (Config.LockedPetsBySteam) — Restrict specific pet models to whitelisted Steam IDs only.",
+    "[NEW] Unique Pet Name Enforcement (Config.EnforceUniquePetNames) — When enabled, no two pets on the server can share the same name.",
+    "[NEW] Theme System (Config.Themes) — Light and Dark theme support added to the UI. Fully customizable via CSS variables."
+    ],
+  "updateFiles": [
+    "config_pets.lua / NEW FILE — Move the Config.Pets table from your old config.lua into this file.",
+    "config_shop.lua / NEW FILE — Move the Config.Markets and Config.PetMarket tables from your old config.lua into this file.",
+    "config_animations.lua / NEW FILE — Move Config.Animations, Config.RightClickShortCut and Config.PetCommands tables from your old config.lua into this file.",
+    "locales.lua / NEW FILE",
+    "config.lua / After migrating the tables above, replace with the new config.lua.",
+    "c/c.lua",
+    "c/opensource.lua",
+    "s/s.lua",
+    "s/opensource.lua",
+    "framework/frameworks.lua",
+    "fxmanifest.lua"
+    ]
   }
 ]
