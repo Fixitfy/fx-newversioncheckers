@@ -53,15 +53,6 @@
     ]
   },
   {
-    "version": "3.2",
-    "changelog": [
-      "Fixed a purchase issue from the 3.1 update."
-    ],
-    "updateFiles": [
-      "s/opensource.lua"
-    ]
-  },
-  {
     "version": "3.3",
     "changelog": [
       "Fixed the issue where normal players were detected as cheaters."
@@ -69,6 +60,15 @@
     "updateFiles": [
       "s folder",
       "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "Fixed an issue where items with decimal prices (e.g. 1.13) could not be purchased because a Math.floor rounding error falsely triggered the price-manipulation/anti-cheat check."
+    ],
+    "updateFiles": [
+      "ui/main.js"
     ]
   }
 ]
