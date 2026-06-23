@@ -269,5 +269,18 @@
       "fxmanifest.lua",
       "c/farming.lua"
     ]
+  },
+  {
+    "version": "2.3",
+    "changelog": [
+      "Fixed an issue where players were unable to use voice chat while harvesting crops in the orchards.",
+      "Fixed progress bar issues during harvesting on both RSG and VORP.",
+      "Improved the overall stability of the harvesting system."
+    ],
+    "updateFiles": [
+      "framework/framework.lua",
+      "fxmanifest.lua",
+      "c/farming.lua"
+    ]
   }
 ]
