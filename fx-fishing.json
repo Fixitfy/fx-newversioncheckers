@@ -116,5 +116,23 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "Fixed: the 'Use Bait' prompt could stay hidden until a resource restart when the rod left your hand (deep water, ragdoll, hands-up or other game mechanics).",
+      "Added: configurable 'Stop Fishing' keys (X / Z by default, see Config.CancelFishing) to drop the rod and cancel fishing at any time, including during the reeling minigame.",
+      "Added: fishing now auto-stops if the game's own mechanic reels the line back in (e.g. line over-tension) while the minigame is still open.",
+      "Fixed: the rod no longer looks baited before you actually apply bait (the default lure is cleared on equip).",
+      "New config options added (Config.Debug, Config.Keybinds, Config.CancelFishing) — please update config.lua.",
+      "New locale key added ('fishing_stopped') — add it to your Config.Locale translations if you use a custom language."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "config.lua",
+      "ui/index.js",
+      "fxmanifest.lua"
+    ]
   }
+
 ]
