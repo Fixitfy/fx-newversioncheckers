@@ -68,7 +68,8 @@
       "Fixed an issue where items with decimal prices (e.g. 1.13) could not be purchased because a Math.floor rounding error falsely triggered the price-manipulation/anti-cheat check."
     ],
     "updateFiles": [
-      "ui/main.js"
+      "ui/main.js",
+      "fxmanifest.lua"
     ]
   }
 ]
