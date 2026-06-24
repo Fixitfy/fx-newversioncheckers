@@ -195,5 +195,19 @@
       "config.lua / Config.Mirror.attack now has a 'key' option (default F). Set your attack key here.",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.8.2",
+    "changelog": [
+      "[FIXED] The pet now attacks the exact target you marked with the Attack prompt, instead of drifting onto the nearest nearby ped (for example a bystander in a camp or group).",
+      "[FIXED] Attacking a distant target no longer bugs out. The pet now runs up to the target first and then engages, instead of standing still because it was too far away to start combat.",
+      "[ADDED] After you cancel an attack (or the target dies) while the pet is far away, it now runs back to within a few metres of you and then resumes following normally, instead of slowly walking / stalling back from a distance.",
+      "[FIXED] Cancelling an attack now works reliably while Mirror mode is ON. Previously, if you were still shooting, Mirror would instantly re-attack so the cancel didn't stick and the on-screen prompts could disappear until the target died."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
+
 ]
