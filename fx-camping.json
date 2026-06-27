@@ -44,5 +44,22 @@
       "client/camp.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "Fixed an issue on VORP where camps lost their zone, map blip and build/storage interactions after rejoining or restarting the server.",
+      "Fixed the Move Camp wagon not appearing (and causing an error) after a server restart.",
+      "Fixed a crash that could happen after placing more than two props in a camp.",
+      "Added a config option to enable/disable camp grass clearing and set its size.",
+      "Reduced console spam — extra logs now only show when Debug mode is enabled."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "framework/frameworks.lua",
+      "config.lua",
+      "server/camp.lua",
+      "client/camp.lua"
+    ]
   }
 ]
