@@ -61,5 +61,21 @@
       "server/camp.lua",
       "client/camp.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "Cleaned up the in-game console — client logs are now hidden unless Debug mode is enabled (server-side/error logs still go to the server console as before).",
+      "Fixed a console SQL error on VORP when removing a camp storage prop or a wagon.",
+      "Fixed losing the camp item when trying to place a camp inside or at the edge of a town — the item is now returned to you.",
+      "Optional: config_items.lua still has some unused 'grassRadius' lines that no longer do anything — you may remove them if you wish, but it's not required (your item settings are safe either way)."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "framework/frameworks.lua",
+      "client/main.lua",
+      "config_items.lua",
+      "client/camp.lua"
+    ]
   }
 ]
