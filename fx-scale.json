@@ -64,7 +64,7 @@
       "Fixed: After death and revive, scale was resetting to default (1.0).",
       "Fixed: Opening the menu while dead could break the script until rejoin.",
       "Fixed: Scale preview in the menu now starts at the player's actual scale instead of default.",
-      "Feature: Command access now supports multiple groups. Example: groups = {\"admin\", \"viva\"}"
+      "Feature: Command access now supports multiple groups. Example: groups = {\"admin\", \"etc\"}"
     ],
     "updateFiles": [
       "c/opensource.lua",
