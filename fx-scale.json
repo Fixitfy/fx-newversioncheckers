@@ -47,13 +47,30 @@
   {
     "version": "1.4",
     "changelog": [
-      "Synchronization issues have been fixed. After the update, restart your server once for it to work properly.",
+      "Synchronization issues have been fixed. After the update, restart your server once for it to work properly."
     ],
     "updateFiles": [
       "c.lua",
       "s.lua",
       "config.lua Locale add en-tr-de",
       "ui/style.css",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "Fixed: Players joining the server could not see other players' correct scale.",
+      "Fixed: After death and revive, scale was resetting to default (1.0).",
+      "Fixed: Opening the menu while dead could break the script until rejoin.",
+      "Fixed: Scale preview in the menu now starts at the player's actual scale instead of default.",
+      "Feature: Command access now supports multiple groups. Example: groups = {\"admin\", \"viva\"}"
+    ],
+    "updateFiles": [
+      "c/opensource.lua",
+      "s/s.lua",
+      "c/functions.lua",
+      "ui/main.js",
       "fxmanifest.lua"
     ]
   }
