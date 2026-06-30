@@ -293,5 +293,17 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.2",
+    "changelog": [
+      "Fixed players sometimes spawning with low or half health. The HUD was accidentally saving temporary values from the character selection / loading screen to the database, so on your next spawn you could load in injured. Stats are now only saved while you are actually in-game.",
+      "Fixed hunger, thirst and cores draining too fast for players who switch characters. The metabolism timers were being created again on every character selection and stacked on top of each other; they now start only once per session, so depletion stays at the normal speed.",
+      "The HUD is now hidden on the character selection screen and automatically reappears when you spawn into the world."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
