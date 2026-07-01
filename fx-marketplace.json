@@ -107,7 +107,7 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
-  }
+  },
   {
     "version": "3.2.1",
     "changelog": [
@@ -120,6 +120,25 @@
       "c/c.lua",
       "s/s.lua",
       "ui/assets/main.js"
+    ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "Fixed a critical auction money exploit: outbidding a previous bidder could refund them twice (money returned and logged twice), duplicating cash/gold.",
+      "Auction refunds are now paid exactly once - instantly if the outbid player is online, or on rejoin if they are offline.",
+      "Fixed RSG: outbidding an online player could throw an error and skip the refund; the previous bidder is now refunded correctly.",
+      "Fixed RSG: pending offline refunds were never paid out on reconnect due to a wrong player-loaded event; the correct framework event is now used.",
+      "Fixed RSG: cancelling a listing failed to refund the current bidder when the seller's inventory was full; cancels now always refund the bidder and return the item (to the market warehouse if the inventory is full).",
+      "Added per-listing bid locking to close a rare double-refund race when two players outbid at the exact same moment.",
+      "Hardened VORP and RSG money helpers against edge-case errors when a player disconnects mid-transaction.",
+      "Verified and confirmed working on both RSG and VORP."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "c/opensource.lua",
+      "fxmanifest.lua"
     ]
   }
 ]
