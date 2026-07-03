@@ -305,5 +305,21 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.3",
+    "changelog": [
+      "The item return system has been completely reworked. Every consumable now has its own returnedItems table with an on/off switch, so you can decide per item whether using it gives an item back (for example, an empty bottle after drinking water).",
+      "Added a return chance: use returnChance to set the % chance an item is returned (100 = always, 0 = never).",
+      "Added a break chance: set a brokenItem with brokenChance and brokenCount so a returned item can sometimes come back broken (for example, a broken glass) instead of the normal one.",
+      "When an item is returned, a notification now shows what you used and what you received, with colored item names. It can be turned off per item with notify = false."
+    ],
+    "updateFiles": [
+      "consumables.lua (all items - new returnedItems table)",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua new Locale (returnedItemNotify and returnedBrokenNotify)",
+      "fxmanifest.lua"
+    ]
   }
 ]
