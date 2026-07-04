@@ -33,5 +33,30 @@
       "ui/main.js",
       "exports.md"
     ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "[CHANGE] The 3D lock icon and the interaction prompt are now two independent per-door toggles. Previously HIDDEN LOCK hid both the icon and the prompt at once.",
+      "[ADD] HIDE ICON toggle (hideLock): hides only the 3D lock/key sprite on the door — the interaction prompt still works.",
+      "[ADD] HIDE PROMPT toggle (hidePrompt): hides only the interaction prompt — the door is then opened silently via the key press (Config.Settings.UseHideDoorsLockPressKey, default G).",
+      "[ADD] Both toggles are decided by the admin in the create/edit menu while placing the door lock, and are wired through save/update/serialize for both normal doors (saved_doors.lua) and custom doors (saved_custom_doors.lua).",
+      "[ADD] New locale description desc_hide_prompt under the HIDE PROMPT checkbox in all 3 languages (en/de/tr); desc_hidden_lock reworded to reflect icon-only hiding.",
+      "[ADD] AutoDetectDoors — new /createdoor scan pass using the RDR3 engine's DoorSystemGetActive() native. It reads every door archetype the engine has streamed in (including custom map doors added later via ymap/ytyp) so they can be selected with /createdoor without being listed in any config.",
+      "[ADD] Config.Settings.AutoDetectDoors toggle (default true). Set to false to fall back to the classic 3-pass scan behaviour.",
+      "[NOTE] The new engine scan runs as a 4th pass after the existing registered-doors / DoorHashes / CustomDoorHashs passes. seenEntities + IsEntityRegistered guards guarantee no duplicate markers and full backward compatibility with config_customdoor.lua, which keeps working unchanged.",
+      "[NOTE] DoorSystemGetActive is guarded (if DoorSystemGetActive then ...); on very old RedM artifacts that lack the native it silently falls back to the classic behaviour."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "client/main.lua",
+      "client/functions.lua",
+      "client/customdoor.lua",
+      "server/main.lua",
+      "server/customdoor.lua",
+      "ui/index.html",
+      "ui/main.js"
+    ]
   }
 ]
