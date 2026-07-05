@@ -120,7 +120,7 @@
       "framework/frameworks.lua",
       "ui/js/main.js",
       "fxmanifest.lua",
-      "config.lua new Locales"
+      "config.lua"
     ]
   },
   {
@@ -136,8 +136,22 @@
       "framework/frameworks.lua",
       "ui/js/main.js",
       "fxmanifest.lua",
-      "config.lua new Locales"
+      "config.lua"
+    ]
+  },
+  {
+    "version": "4.0",
+    "changelog": [
+      "Fixed the notebook duplication issue on VORP when editing and saving a notebook.",
+      "Notebooks that were stacked together no longer copy the same content to each other.",
+      "When you edit and save a notebook taken from a stack, it now becomes its own separate book and the stack count goes down by one.",
+      "Adding pages with paper does not create new items; pages are only added inside the book.",
+      "RSG is unaffected and keeps working as before."
+    ],
+    "updateFiles": [
+      "s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
     ]
   }
 ]
-
