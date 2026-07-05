@@ -58,5 +58,20 @@
       "ui/index.html",
       "ui/main.js"
     ]
-  }
+  },
+  {
+    "version": "1.3",
+    "changelog": [
+      "A door unlock sound system has been added.",
+      "The menu has been redesigned and optimized for all resolutions.",
+      "Issues such as doors remaining locked or appearing open while locked have been fixed.",
+      "This is the recommended version; please use this version."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "client folder / All Files",
+      "server folder / All Files",
+      "ui folder / All files"
+    ]
+  },
 ]
