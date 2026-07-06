@@ -41,5 +41,31 @@
       "ui/assets/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "Added a master switch for the reward system. The whole reward system can now be turned on or off from the config.",
+      "Daily, weekly and total time rewards can now be enabled or disabled individually from the config.",
+      "When the reward system is disabled, the reward button is automatically hidden from the pause menu.",
+      "Added link buttons: you can now add your own website links to the pause menu from the config. They are shown with a chain icon.",
+      "Each link can be set to open inside the game (NUI panel) or in the player's browser (openIn = \"nui\" / \"browser\").",
+      "The hotkeys keyboard layout has been completely redesigned. All keys are now properly aligned, just like a real keyboard.",
+      "The keyboard now scales correctly on every screen resolution (1080p, 2K, 4K).",
+      "Fixed the hotkey description text overlapping the keys on the hotkeys screen.",
+      "The link button is now positioned at the bottom center, below the character.",
+      "The player name and job info has been moved up so it no longer covers the character's face."
+    ],
+    "updateFiles": [
+      "config.lua",
+      "c/c.lua",
+      "s/s.lua",
+      "ui/index.html",
+      "ui/main.js",
+      "ui/style.css",
+      "ui/assets/img/linkchain-white.png",
+      "ui/assets/img/linkchain-black.png",
+      "fxmanifest.lua"
+    ]
   }
 ]
