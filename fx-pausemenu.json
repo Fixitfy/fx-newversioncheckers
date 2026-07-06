@@ -53,8 +53,6 @@
       "The hotkeys keyboard layout has been completely redesigned. All keys are now properly aligned, just like a real keyboard.",
       "The keyboard now scales correctly on every screen resolution (1080p, 2K, 4K).",
       "Fixed the hotkey description text overlapping the keys on the hotkeys screen.",
-      "The link button is now positioned at the bottom center, below the character.",
-      "The player name and job info has been moved up so it no longer covers the character's face."
     ],
     "updateFiles": [
       "config.lua",
