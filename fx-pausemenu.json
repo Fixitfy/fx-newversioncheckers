@@ -53,7 +53,8 @@
       "The hotkeys keyboard layout has been completely redesigned. All keys are now properly aligned, just like a real keyboard.",
       "The keyboard now scales correctly on every screen resolution (1080p, 2K, 4K).",
       "Fixed the hotkey description text overlapping the keys on the hotkeys screen.",
-      "Fixed pause menu emote sometimes not playing", "Fixed emote/prop not being cleaned up when the menu is closed quickly",
+      "Fixed the pause menu emote sometimes not playing when the menu is opened.",
+      "Fixed the emote and prop not being cleaned up when the menu is closed quickly."
     ],
     "updateFiles": [
       "config.lua",
