@@ -208,6 +208,17 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.9",
+    "changelog": [
+      "[FIXED] Fixed pets dying again within seconds after being revived. Hunger and thirst are now correctly refilled to 100 when a pet is revived, so you no longer lose your pet before you can feed it.",
+      "[FIXED] Fixed revived pets losing their refilled hunger/thirst (and sometimes being marked as dead again) after the player disconnected and reconnected."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
-
 ]
