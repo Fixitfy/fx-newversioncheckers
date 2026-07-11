@@ -111,7 +111,7 @@
   {
     "version": "2.5",
     "changelog": [
-      "The -Reliable network event overflow- issue that occurred after the last update has been fixed.."
+      "The -Reliable network event overflow- issue that occurred after the last update has been fixed."
     ],
     "updateFiles": [
       "c/all files",
@@ -218,6 +218,25 @@
     "updateFiles": [
       "c/c.lua",
       "s/s.lua",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "3.0",
+    "changelog": [
+      "[NEW] Pet shops now have a preview mode — inspect the animal from every angle before buying (a key guide is shown at the bottom right).",
+      "[NEW] Pet shops now have a skin changer — pick the variation you want and buy it.",
+      "[NEW] New Mirror behaviors for ground birds (chicken).",
+      "[FIXED] Ground birds (chicken etc) no longer sink underground.",
+      "[FIXED] Shop interface layout issues fixed."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "ui/all files",
+      "locales.lua / New locale key (changeskin)",
+      "config.lua / New settings: groundBird block inside Config.Mirror (lines ~166-172)",
+      "config_pets.lua / New per-animal flag: groundBird = true (see a_c_chicken_01)",
       "fxmanifest.lua"
     ]
   }
