@@ -282,5 +282,26 @@
       "fxmanifest.lua",
       "c/farming.lua"
     ]
+  },
+  {
+    "version": "2.4",
+    "changelog": [
+      "Fixed an issue where the interior would stay locked as 'a player is inside' after a player crashed, disconnected or left the interior with noclip.",
+      "Fixed an issue where players could no longer enter or place a Moonshine interior after this happened, even after deleting it from the database.",
+      "Old broken interior records are now cleaned automatically when the player joins the server. No manual database or file cleanup is needed anymore.",
+      "New failsafe: if a player leaves the interior without using the exit door (noclip, glitch), the server now exits them automatically after a few seconds.",
+      "Fixed interior walls flickering as if two interiors were overlapping. This happened when a player visited differently themed interiors in the same session; themes now clean up correctly on every enter and exit.",
+      "Fixed players getting stuck inside the entrance prop when exiting the interior. You now always exit at a safe spot in front of the entrance.",
+      "Fixed players being teleported to a wrong location when exiting the interior after a reconnect.",
+      "Fixed the admin 'Remove Shell' prompt not showing up after reconnecting.",
+      "Fixed a single broken interior record breaking all interior doors and props for every player on the server.",
+      "New settings in config.lua: Config.ShellExitFailsafe and Config.ShellExitFailsafeDistance."
+    ],
+    "updateFiles": [
+      "config.lua / New Settings Config.ShellExitFailsafe, Config.ShellExitFailsafeDistance",
+      "c/client.lua",
+      "s/server.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
