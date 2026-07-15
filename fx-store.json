@@ -85,5 +85,21 @@
       "framework/frameworks.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.5.1",
+    "changelog": [
+      "Added full compatibility with all vorp_inventory versions: v1 (legacy), v2 and custom design editions.",
+      "The inventory version is now detected automatically at startup — no configuration needed. Check the console for 'Detected Inventory Version: v1/v2'.",
+      "Fixed buying being blocked by a false 'cannot carry' error on old (v1) inventories.",
+      "Fixed selling always failing and item quantities showing as 0 in the store UI on old (v1) inventories.",
+      "Fixed 'No such export' errors when buying/selling weapons on old (v1) inventories.",
+      "Fixed buying/selling freezing on custom/edited vorp_inventory versions (design packs).",
+      "Cleaned up the console: removed the confusing 'Item does not exist in DB' message that appeared at startup."
+    ],
+    "updateFiles": [
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
