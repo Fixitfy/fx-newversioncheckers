@@ -71,5 +71,19 @@
       "ui/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.5",
+    "changelog": [
+      "Added full compatibility with both vorp_inventory v1 (legacy) and v2.",
+      "The inventory version is now detected automatically at startup — no configuration needed (check console for 'vorp_inventory API mode: v1/v2').",
+      "Fixed buying being blocked by a false 'cannot carry' error on vorp_inventory v1.",
+      "Fixed selling always failing and item quantities showing as 0 in the store UI on vorp_inventory v1.",
+      "Fixed weapon buying/selling throwing 'No such export' errors on vorp_inventory v1."
+    ],
+    "updateFiles": [
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
