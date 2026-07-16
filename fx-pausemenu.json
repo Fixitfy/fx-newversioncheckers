@@ -67,5 +67,20 @@
       "ui/assets/img/linkchain-black.png",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.4.2",
+    "changelog": [
+      "Fixed a reward exploit: if a reward was misconfigured, players could claim it over and over and receive the money each time. Rewards are now fully validated before anything is paid out, and a reward can only be claimed once.",
+      "If a reward item cannot be delivered (inventory full or item error), it is no longer lost — it is safely queued and delivered the next time the player opens the menu.",
+      "Fixed a visual issue caused by weapons while playing animations in the pause menu. If the player is holding a weapon, it is now properly put away before the animation starts.",
+      "Player activity data is no longer downloaded by game clients. It now stays on the server only.",
+      "Update note: do NOT overwrite the data folder when updating — it contains your players' playtime and reward progress. The data files in the package are only for fresh installations."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
