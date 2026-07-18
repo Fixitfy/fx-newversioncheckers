@@ -7,7 +7,7 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
-  }, 
+  },
   {
     "version": "1.1",
     "changelog": [
@@ -26,6 +26,25 @@
       "s/s.lua",
       "ui/index.html",
       "ui/script.js"
+    ]
+  },
+  {
+    "version": "1.2",
+    "changelog": [
+      "Fixed accessories staying visible in mid-air while a player is invisible (e.g. admin noclip). Accessories now hide and reappear together with the character.",
+      "Fixed accessories being left floating in the air after a character or ped change. Detached accessories are now cleaned up automatically and re-attached to your current character.",
+      "Fixed unstable gender detection: female characters were sometimes recognized as male and could not equip their accessories. Gender is now re-checked automatically whenever your character changes.",
+      "Night Market: fixed the missing interaction prompt. The market can now be opened with the standard hold prompt when ox_target is not used (useTarget = false).",
+      "Night Market: fixed the blip staying on the map during daytime and the market randomly opening/closing due to a single player's game clock. Open/close timing is now much more stable.",
+      "German language: equip and remove messages were grammatically corrected."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "c/shops.lua",
+      "s/shops.lua",
+      "locales.lua"
     ]
   }
 ]
