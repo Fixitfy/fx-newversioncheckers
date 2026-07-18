@@ -20,7 +20,7 @@
       "s/s.lua",
       "ui/assets/main.js",
       "framework/frameworks.lua",
-      "fxmanifest.lua",
+      "fxmanifest.lua"
     ]
   },
   {
@@ -56,7 +56,7 @@
       "Now every book has its own special order list.",
       "If your skill level is insufficient for crafting, that item will appear more transparent and have a lock icon on it.",
       "crafts will now be sorted by level",
-      "When you upgrade to this version, all old order lists will be lost. After applying this update, empty all craftData tables in the fx_craft SQL table, i.e., set them to “[]”"
+      "When you upgrade to this version, all old order lists will be lost. After applying this update, empty all craftData tables in the fx_craft SQL table, i.e., set them to \"[]\""
     ],
     "updateFiles": [
       "s folder",
@@ -70,10 +70,10 @@
   {
     "version": "3.1",
     "changelog": [
-      "This is the new version of the FX-Craft script. The fast craft feature and each book's own special order list and experience point features have been added. Bugs reported for FX-Craft have been fixed and the script has been updated. We will not support older versions. This is the recommended version and you should use it. For update details, check out our Discord update channel..",
+      "This is the new version of the FX-Craft script. The fast craft feature and each book's own special order list and experience point features have been added. Bugs reported for FX-Craft have been fixed and the script has been updated. We will not support older versions. This is the recommended version and you should use it. For update details, check out our Discord update channel.."
     ],
     "updateFiles": [
-      "All files have been edited. Back up your old folder and use the new folder. Adapt your old config data to the new fx-craft script. New examples have been left in the config for you.",
+      "All files have been edited. Back up your old folder and use the new folder. Adapt your old config data to the new fx-craft script. New examples have been left in the config for you."
     ]
   },
   {
@@ -224,6 +224,19 @@
       "s folder / all files",
       "c folder / all files",
       "ui/assets/main.js",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "4.2",
+    "changelog": [
+      "Fixed the issue where crafting XP was saved to the database but always showed as 0 in the craft book.",
+      "Fixed the issue where crafting multiple items at once gave more XP than intended.",
+      "Craft books now automatically follow job changes made in the config, so XP is always shown correctly.",
+      "No extra steps needed, just replace the files. Old XP data is safe and will not be lost."
+    ],
+    "updateFiles": [
+      "s/s.lua",
       "fxmanifest.lua"
     ]
   }
