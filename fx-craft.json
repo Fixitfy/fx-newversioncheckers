@@ -239,5 +239,18 @@
       "s/s.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "4.2.1",
+    "changelog": [
+      "Fixed the issue where crafting multiple items only gave XP for one item. Crafting 10 items now correctly gives 10x XP.",
+      "Fixed the issue where craft book job settings in the database were changed to \"all\". Job-locked books will automatically restore their correct job when opened.",
+      "Old XP and levels that seemed lost after the last update will become visible again. No data was deleted.",
+      "No extra steps needed, just replace the files and restart the script."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
