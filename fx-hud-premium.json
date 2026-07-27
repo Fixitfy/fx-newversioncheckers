@@ -321,5 +321,26 @@
       "config.lua new Locale (returnedItemNotify and returnedBrokenNotify)",
       "fxmanifest.lua"
     ]
+  },
+  {
+  "version": "3.4",
+  "changelog": [
+    "Added a server logo feature. Enable it in Config.ServerLogo using a local image or a URL, then position it in-game with the /hudmenu drag system — the position is saved per character just like any other HUD element.",
+    "The drunk system has been reworked. The drunk walk and screen effect now start when the alcohol gauge reaches 50% and continue without any interruption until it drops below 25%. All levels are configurable.",
+    "Drunk walking now has two stages: a light sway at lower alcohol levels and a heavy stagger at high levels.",
+    "Added a vomiting system. Above 75% alcohol the player receives a warning and may vomit by chance. Vomiting does not lock the character — you can keep walking — and it lowers alcohol, hunger and thirst (all configurable).",
+    "Drinks no longer apply their own instant drunk effects; drunkenness is now fully controlled by the alcohol gauge.",
+    "New export forceVomit() and event fx-hud:client:vomit so other scripts can trigger vomiting (for example spoiled food)."
+  ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "config.lua new Config.ServerLogo / updated Config.HudSettings.Alcohol (effectStartValue, effectStopValue, drunkWalkHeavy, drunkWalkLight, Vomit block, ResetAlcohol values) / new Locale (vomitwarning)",
+      "consumables.lua (all drinks: SetPedDrunkness and ScreenEffect set to false)",
+      "fxmanifest.lua"
+    ]
   }
 ]
