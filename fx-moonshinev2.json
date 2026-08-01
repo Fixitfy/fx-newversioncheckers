@@ -303,5 +303,21 @@
       "s/server.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.1",
+    "changelog": [
+      "Fixed an issue where a crafted batch could never be collected when it exceeded the inventory item limit (VORP items 'limit' column). The still no longer gets permanently stuck.",
+      "Collection now supports partial pickup: players receive as much as their inventory can hold and the remainder stays safely in the still until they come back.",
+      "Luck roll and XP are now applied only once per batch, so partial collections do not double-reward.",
+      "Fixed a bug in the VORP carry check that could target the wrong player.",
+      "Batches that are already stuck on your server will recover automatically on the next claim, no manual cleanup needed."
+    ],
+    "updateFiles": [
+      "s/server.lua",
+      "framework/framework.lua",
+      "config.lua / New Locale partialcollect",
+      "fxmanifest.lua"
+    ]
   }
 ]
