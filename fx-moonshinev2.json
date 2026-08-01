@@ -305,7 +305,7 @@
     ]
   },
   {
-    "version": "3.1",
+    "version": "2.5",
     "changelog": [
       "Fixed an issue where a crafted batch could never be collected when it exceeded the inventory item limit (VORP items 'limit' column). The still no longer gets permanently stuck.",
       "Collection now supports partial pickup: players receive as much as their inventory can hold and the remainder stays safely in the still until they come back.",
