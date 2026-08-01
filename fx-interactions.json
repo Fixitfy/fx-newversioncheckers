@@ -122,5 +122,23 @@
       "c/functions.lua",
       "config.lua / New Locale Key: interaction_wall_blocked"
     ]
+  },
+  {
+    "version": "1.9",
+    "changelog": [
+      "Police custody exploit has been fixed. Handcuffed, hogtied, lassoed or dragged/escorted players can no longer open the interaction menu to escape custody.",
+      "Interaction prompts and target options (ox_target / murphy_interact) are now hidden while the player is restrained.",
+      "Restrained players can no longer use the GET UP / cancel key to teleport out of restraints. Getting restrained while sitting now safely ends the interaction without breaking police animations.",
+      "Police can no longer accidentally open interactions while dragging or escorting a suspect.",
+      "New setting 'Config.RestraintCheck' added: state flag list + custom hook to integrate any police script."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "framework/frameworks.lua",
+      "ui/main.js",
+      "config.lua / New Setting: Config.RestraintCheck"
+    ]
   }
 ]
