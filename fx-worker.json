@@ -46,7 +46,7 @@
     ],
     "updateFiles": [
       "fxmanifest.lua",
-      "s folder",
+      "s folder"
     ]
   },
   {
@@ -171,6 +171,25 @@
       "config.lua added New Settings Config.SpawnWorkerNpcs / Config.GlobalNpc",
       "s/s.lua",
       "c/c.lua",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "IMPORTANT for servers using Config.UseSql = true. If you use the JSON storage you were not affected by the money bug.",
+      "Fixed: The seller was paid again after every server restart. If a worker was sold for 20.000, the seller received 20.000 again on each restart. The payment is now made only once.",
+      "Fixed: The sold worker came back to the seller after a restart, so the same worker existed on both the seller and the buyer.",
+      "Fixed: Items taken out of the warehouse came back after a restart.",
+      "Fixed: After selling a worker your worker list opened empty until the next restart.",
+      "Fixed: Cancelling your own sale could remove another player's listing from the market.",
+      "Fixed: The 'you sold your worker' message was shown to the buyer instead of the seller.",
+      "Fixed: The buy button in the worker market could be triggered more than once with a single click.",
+      "Note: Old sales that were already paid are cleaned up automatically the first time the seller connects after the update."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "ui/main.js",
       "fxmanifest.lua"
     ]
   }
