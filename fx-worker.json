@@ -192,6 +192,26 @@
       "ui/main.js",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.2",
+    "changelog": [
+      "Fixed: Players could tamper with the work data and finish a job in seconds, with no stamina cost and much higher item and XP rewards. Work time, stamina and rewards now always come from your config.",
+      "Fixed: A worker could be put on sale with a negative price, which paid the buyer instead of charging them.",
+      "Fixed: Items could be duplicated by withdrawing a negative amount from the warehouse.",
+      "Fixed: The same worker could be put on sale more than once.",
+      "Fixed: The work timer followed the player's own PC clock, so changing the system clock made it show 'Time's up!' while the job was still running. It now follows server time. Rewards were never affected.",
+      "Fixed: Server error when feeding a worker with invalid data.",
+      "Fixed: Players who were already in-game lost their worker blips and NPCs after a resource restart, until they reconnected.",
+      "Fixed: The worker menu closed itself every time a worker was updated. It now stays open and shows the live countdown.",
+      "How to update: replace the files listed below with the new ones. Do not replace your data folder, your player data is stored there. No config changes are needed."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "c/c.lua",
+      "ui/main.js",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
-
 ]
