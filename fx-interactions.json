@@ -140,5 +140,18 @@
       "ui/main.js",
       "config.lua / New Setting: Config.RestraintCheck"
     ]
+  },
+  {
+    "version": "2.0",
+    "changelog": [
+      "Fixed the interaction bug introduced in 1.9. When Config.RestraintCheck was enabled, every player was treated as restrained, so chair, bench, bed, piano and bath interactions stopped working completely.",
+      "Target options (ox_target / murphy_interact / pc_interaction) and prompts now appear correctly again.",
+      "The custody protection from 1.9 now works as intended: only players who are really handcuffed, hogtied, lassoed or dragged are blocked.",
+      "If you set Config.RestraintCheck.enabled to false as a workaround, you can safely set it back to true."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/functions.lua"
+    ]
   }
 ]
