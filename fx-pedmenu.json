@@ -48,7 +48,7 @@
     ],
     "updateFiles": [
       "s folder",
-      "config.lua delete webhook settings", 
+      "config.lua delete webhook settings",
       "config_server.lua / New File",
       "fxmanifest.lua"
     ]
@@ -84,6 +84,32 @@
       "ui/assets/style.css",
       "ui/assets/index.html",
       "config.lua / Config.Locale",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+      "Reloading now works on every ped model. Press R to reload; a new revolver-cylinder progress UI with a countdown is shown while reloading.",
+      "All visual bugs during reload (broken arms / stuck poses) are completely fixed. No reload animation is forced on the ped anymore.",
+      "Reload spam can no longer get you stuck, and reloading is blocked while aiming (same rule as the frameworks).",
+      "Weapon-type based reload sounds added (revolver, pistol, shotgun, sawed-off, repeater, rifle, sniper). Sounds are simple files in the new sounds/ folder and can be replaced by server owners - see SETUP.md.",
+      "New on-screen hints while playing as a ped: a red 'R - RELOAD' hint when your clip is empty, and an 'OUT OF AMMO' warning when your ammo is gone. Both can be turned off in config.",
+      "Full VORP and RSG-Core compatibility for reload and ammo. Ammo is always taken from and synced with your framework (VORP gunbelt / RSG ammo) - no free ammo, no ammo loss, and no other resource needs to be edited.",
+      "Restarting fx-pedmenu no longer freezes or bugs your character. If you are transformed into a ped, your ped and outfit are restored automatically after the restart (can be turned off in config).",
+      "New config options: ReloadTime, ReloadUI, ReloadSound, ReloadSoundVolume, ReloadPrompt, NoAmmoPrompt, RestorePedAfterRestart, WeaponReloadSounds.",
+      "Removed: the old spinning reload icon and the old reload behavior that played animations on the ped."
+    ],
+    "updateFiles": [
+      "c folder",
+      "s folder",
+      "config.lua / new reload settings + new Config.Locale keys (reloading, reload_prompt, no_ammo)",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/assets/font/rdrlino.ttf (new file)",
+      "sounds folder (new folder)",
+      "SETUP.md",
       "fxmanifest.lua"
     ]
   }
