@@ -53,5 +53,40 @@
       "s/s.lua",
       "c/c.lua"
     ]
+  },
+  {
+    "version": "1.4",
+    "changelog": [
+      "The script has been rewritten from the ground up; performance and stability are greatly improved.",
+      "Settings are now split into separate files: general settings (config.lua), clubs and coordinates (config_clubs.lua), animations and cameras (config_animations.lua), server/webhook (config_server.lua).",
+      "Multi-club support added; you can now run more than one club at the same time.",
+      "Multi-language system added (locales.lua): English, Turkish, German and French. Adding a new language is very easy.",
+      "Data is now stored in the database instead of data.json; vault balance and show times survive restarts. Old data.json content is imported automatically on first start.",
+      "A setup folder has been added: SQL file and a step-by-step installation guide (SETUP.md).",
+      "Private room cameras are now placed automatically; a camera stuck behind a wall corrects itself.",
+      "Discord webhook logging added (config_server.lua).",
+      "More files are now open for editing; club, language and settings files are unencrypted (outside escrow).",
+      "The krakenStudio compatibility package is simplified; replacing a single config_clubs.lua file is now enough."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "s/opensource.lua",
+      "framework/frameworks.lua",
+      "config.lua",
+      "config_clubs.lua",
+      "config_animations.lua",
+      "config_server.lua",
+      "locales.lua",
+      "ui/index.html",
+      "ui/assets/style.css",
+      "ui/assets/main.js",
+      "versionchecker.lua",
+      "setup/SETUP.md",
+      "setup/fx-nightclub.sql",
+      "krakenStudio-Compatibiliy/config_clubs.lua",
+      "krakenStudio-Compatibiliy/README.md",
+      "fxmanifest.lua"
+    ]
   }
 ]
