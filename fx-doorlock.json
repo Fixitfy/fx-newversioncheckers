@@ -82,7 +82,7 @@
       "[NEW] Double door support added to custom door creation (DOUBLE DOOR option).",
       "[NEW] Doors that the game locks by default (bank doors, etc.) can now be locked and unlocked normally. The script automatically clears the game's built-in lock — you no longer need to add these doors to the Config.OpenFixedDefaultDoors list manually.",
       "[CHANGE] Editing a custom door's settings now updates the existing door in place — no flicker, no respawn.",
-      "[REMOVED] The Config.OpenFixedDefaultDoors setting has been removed — it is no longer needed.",
+      "[REMOVED] The Config.OpenFixedDefaultDoors setting has been removed — it is no longer needed."
     ],
     "updateFiles": [
       "fxmanifest.lua",
@@ -105,7 +105,7 @@
       "[OPTIMIZE] Locked-door enforcement loop reworked: heavy scans now run less often and only nearby doors are processed. Big FPS/CPU improvement on servers with many doors.",
       "[OPTIMIZE] Double door lookups no longer scan every door each frame — replaced with an instant precomputed lookup.",
       "[OPTIMIZE] Reduced memory usage (garbage collector spikes) in all hot loops and door list saving."
-  ],
+    ],
     "updateFiles": [
       "fxmanifest.lua",
       "server/main.lua",
