@@ -112,5 +112,30 @@
       "SETUP.md",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.7.1",
+    "changelog": [
+      "Fixed the infinite ammo bug while playing as a ped (VORP + RSG). Reloading now always consumes your ammo and stays perfectly in sync with your inventory - no free ammo, no ammo loss.",
+      "The ammo belt limit is now enforced while playing as a ped: using ammo items can no longer stack your reserve past the limit your framework allows.",
+      "The reload hint now shows your remaining reserve ammo, e.g. 'R - RELOAD (12)'.",
+      "VORP: reloads are now reported to vorp_inventory through its own official event. More reliable syncing and no more 'possible cheat' warnings in the server console.",
+      "VORP: INSTALL-VORP.md has been completely rewritten with a much simpler, version-independent setup. IMPORTANT: if you applied the old integration steps, restore your original vorp_character files and follow the new steps.",
+      "While playing as a ped, firearms can now only be fired while aiming on every framework - no more hip fire / hammer-cock shots (can be turned off with Config.BlockHipFire).",
+      "The 'you cannot reload while aiming' message no longer pops up while playing as a ped on VORP.",
+      "New failed-reload feedback: if your weapon leaves your hand mid-reload (climbing, holstering, switching weapons), the cylinder UI cracks apart in red with a fail sound - and no ammo is spent. The sound is sounds/reload_fail.mp3 and can be replaced.",
+      "New config options: BlockHipFire, ReloadDebug. New Config.Locale key: reload_failed."
+    ],
+    "updateFiles": [
+      "c folder",
+      "config.lua / new options (BlockHipFire, ReloadDebug) + new Config.Locale key (reload_failed)",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "sounds/reload_fail.mp3 (new file)",
+      "INSTALL-VORP.md (rewritten - VORP users must re-apply)",
+      "SETUP.md",
+      "fxmanifest.lua"
+    ]
   }
 ]
