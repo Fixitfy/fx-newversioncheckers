@@ -95,5 +95,22 @@
       "ui/index.html",
       "ui/main.js"
     ]
+  },
+  {
+    "version": "1.4.2",
+    "changelog": [
+      "[FIX] Loading-screen timeouts on servers with large door lists have been fixed — door sync is now requested by the client at the right moment instead of being pushed during loading.",
+      "[CHANGE] Door sync is now sent in small chunks (25 doors per packet), so servers with hundreds of doors never send one oversized packet.",
+      "[CHANGE] Added anti-flood protection to the door sync request (per-player cooldown).",
+      "[OPTIMIZE] Locked-door enforcement loop reworked: heavy scans now run less often and only nearby doors are processed. Big FPS/CPU improvement on servers with many doors.",
+      "[OPTIMIZE] Double door lookups no longer scan every door each frame — replaced with an instant precomputed lookup.",
+      "[OPTIMIZE] Reduced memory usage (garbage collector spikes) in all hot loops and door list saving."
+  ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "server/main.lua",
+      "client/main.lua",
+      "client/functions.lua"
+    ]
   }
 ]
