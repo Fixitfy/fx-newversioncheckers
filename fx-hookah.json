@@ -7,5 +7,27 @@
     "updateFiles": [
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "New Config.PickupSettings. You can now decide who is allowed to pick a hookah up and carry it away, by job or by group, the same way Config.DeleteBoxSettings already works. Perfect for a lounge where guests may smoke but only your staff may move the hookahs.",
+      "Players who are not allowed to pick up or delete a hookah no longer see the option at all, in every supported target system and in the key prompts.",
+      "Job and group changes now apply straight away, without the player having to relog.",
+      "New fx-hookah:server:onSmoke event and three new exports, so you can give every tobacco its own metabolism or status effect from your own resource. See the new EXPORTS.md.",
+      "Picking up, putting down and smoking are now checked on the server, which closes an exploit where a hookah could be taken or used from anywhere on the map.",
+      "Fixed a hookah becoming invisible until the next restart when the player carrying it disconnected.",
+      "Fixed hookahs and permissions sometimes not loading when a character was still being loaded."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c folder",
+      "s folder",
+      "framework/frameworks.lua",
+      "config.lua new Config.PickupSettings",
+      "config.lua new Locale pickup_disabled and pickup_no_permission",
+      "SETUP.md",
+      "EXPORTS.md new file"
+    ]
   }
 ]
