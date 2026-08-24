@@ -137,5 +137,18 @@
       "SETUP.md",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.7.2",
+    "changelog": [
+      "Bow and arrow now work correctly while playing as a ped. Your arrows are no longer reduced to 1 - if you had 30 arrows, you still have 30 after transforming.",
+      "The bow is now completely excluded from the ped reload system. It behaves exactly the same as on your normal character, just like vanilla RDR2 / your framework intended.",
+      "Your bow and its arrows are now saved before transforming into a ped and restored right after, so you no longer have to reload it from your inventory every time.",
+      "Fixed: the left-click fire block could stay active after switching back to your normal character. It now only ever applies while you are actually playing as a ped."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
