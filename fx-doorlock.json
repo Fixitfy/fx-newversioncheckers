@@ -112,5 +112,31 @@
       "client/main.lua",
       "client/functions.lua"
     ]
+  },
+  {
+    "version": "1.5",
+    "changelog": [
+      "[NEW] MASTER KEY — group several doors together and open all of them with a single key. A 4-door sheriff office no longer needs 4 separate keys.",
+      "[NEW] Master keys are created right inside /createdoor, in the PERMISSIONS tab. On the next door you just pick the set from a searchable list.",
+      "[NEW] Add a job to a master key and everyone with that job can open every door in the set — and manage those doors with /createdoor without being an admin.",
+      "[NEW] /masterkeys — manager panel with search: rename a set, edit its jobs, remove doors, delete it, or create keys without walking to a door.",
+      "[NEW] adminCanOpen setting (default on): admins open every door with no job or key check.",
+      "[FIX] Security: a bug allowed any player to open any door on the server. Fixed.",
+      "[FIX] Creating keys could consume the master keys already in your inventory.",
+      "[FIX] Dropdown menus rendered as corrupted pixels in-game — replaced with proper themed menus.",
+      "[FIX] Version checker no longer floods the console with the entire changelog history.",
+      "[OPTIMIZE] Door interactions are much lighter on the server.",
+      "[NOTE] Existing setups keep working, no migration needed and no new files added."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "saved_doors.lua",
+      "versionchecker.lua",
+      "framework/frameworks.lua",
+      "client folder / All Files",
+      "server folder / All Files",
+      "ui folder / All Files"
+    ]
   }
 ]
