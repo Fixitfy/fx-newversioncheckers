@@ -252,5 +252,20 @@
       "s/s.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "4.3",
+    "changelog": [
+      "Order list security: the item and the amount you receive are now taken from the stored order instead of the client. Taking more than you ordered, or swapping an order for a different item, is no longer possible.",
+      "Fixed orders being lost when two of them finished in the same second - collecting one no longer deletes the other.",
+      "Recipe flags (handCraft, metadata) are now read from your config instead of the client, so the order list can no longer be bypassed.",
+      "Fixed XP being thrown away on level up. The surplus now carries into the new level and one large craft can advance more than one level - crafting in batches is no longer punished.",
+      "craftData.lua and DOCS.md now explain handCraft correctly: true = goes straight into the inventory, false = goes to the book's order list. Documentation only - do NOT overwrite your own craftData.lua.",
+      "Just replace s/s.lua and fxmanifest.lua and restart. No database changes, no XP or level data is lost."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
