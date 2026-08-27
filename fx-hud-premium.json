@@ -342,5 +342,27 @@
       "consumables.lua (all drinks: SetPedDrunkness and ScreenEffect set to false)",
       "fxmanifest.lua"
     ]
+  },
+    {
+    "version": "3.5",
+    "changelog": [
+      "YACA voice support has been fixed. The microphone HUD now follows your voice range - it used to stay stuck at the same level no matter which range you picked.",
+      "Voice ranges are now read straight from YACA, so the HUD adapts on its own however many ranges your server has. No extra setup needed.",
+      "The voice range circle on the ground now matches your real voice range and gets a different color for each range.",
+      "The microphone HUD now also reacts to radio, megaphone and a muted microphone.",
+      "Added a pulse effect when you change your voice range. It works with YACA, pma-voice and SaltyChat.",
+      "New filter system: other scripts can now decide whether a player is allowed to use a food, drink or medicine item. See EXPORTS-FILTERS.md for examples.",
+      "YACA users: open yaca-voice/config/shared.json5 and set voiceRange.markerColor.enabled to false, otherwise YACA draws a second green circle on top of the HUD one. See SETUP-YACA.md."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "ui/assets/main.js",
+      "config.lua new Config.YacaResourceName / new Config.FilterSystem and Config.FilterNotify / updated Config.VoiceAndProximity (MinCircleRadius, ShowRangePulse, ShowRadioState, ShowMegaphoneState, ShowSoundMuteState) / new Locale (cantUseItemNow)",
+      "EXPORTS.md",
+      "EXPORTS-FILTERS.md (new file)",
+      "SETUP-YACA.md (new file)",
+      "fxmanifest.lua"
+    ]
   }
 ]
