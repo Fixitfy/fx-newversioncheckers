@@ -150,5 +150,34 @@
       "c/c.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.8",
+    "changelog": [
+      "Dual wielding now works properly. Both guns reload, even when you are carrying two of the same weapon.",
+      "Tap R to reload one hand, or hold R to reload both. If you let go before it finishes, nothing is loaded.",
+      "New reload hints appear under your ammo counters in the top right, showing how much ammo each gun has left.",
+      "Knives, the fishing rod, lasso, lantern and binoculars no longer say 'out of ammo' while you are a ped.",
+      "Your ammo is now always counted correctly. Nothing is lost or duplicated when you switch peds, die, use an ammo item, or turn back into your own character.",
+      "Your ammo is no longer lost if you crash or disconnect while playing as a ped - you get it back the next time you join.",
+      "Switching weapons no longer empties the gun you switch to.",
+      "Fixed your character freezing with both arms stuck out while dual wielding.",
+      "Fixed reloads that looked like they worked but did not actually load any ammo.",
+      "Fixed the last bullet in your second gun being unusable.",
+      "Pressing R to pick something up no longer reloads your gun at the same time.",
+      "New config: every ped restriction is now a simple on/off setting, and you can give individual peds their own rules.",
+      "The version checker no longer fills the console every time the server starts.",
+      "The script runs lighter than before."
+      ],
+      "updateFiles": [
+        "c folder",
+        "s folder",
+        "config.lua (replace it with the new one, then put your own settings back in)",
+        "ui/index.html",
+        "ui/assets/main.js",
+        "ui/assets/style.css",
+        "versionchecker.lua",
+        "fxmanifest.lua"
+    ]
   }
 ]
