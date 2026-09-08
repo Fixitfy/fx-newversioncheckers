@@ -323,15 +323,15 @@
     ]
   },
   {
-  "version": "3.4",
-  "changelog": [
-    "Added a server logo feature. Enable it in Config.ServerLogo using a local image or a URL, then position it in-game with the /hudmenu drag system — the position is saved per character just like any other HUD element.",
-    "The drunk system has been reworked. The drunk walk and screen effect now start when the alcohol gauge reaches 50% and continue without any interruption until it drops below 25%. All levels are configurable.",
-    "Drunk walking now has two stages: a light sway at lower alcohol levels and a heavy stagger at high levels.",
-    "Added a vomiting system. Above 75% alcohol the player receives a warning and may vomit by chance. Vomiting does not lock the character — you can keep walking — and it lowers alcohol, hunger and thirst (all configurable).",
-    "Drinks no longer apply their own instant drunk effects; drunkenness is now fully controlled by the alcohol gauge.",
-    "New export forceVomit() and event fx-hud:client:vomit so other scripts can trigger vomiting (for example spoiled food)."
-  ],
+    "version": "3.4",
+    "changelog": [
+      "Added a server logo feature. Enable it in Config.ServerLogo using a local image or a URL, then position it in-game with the /hudmenu drag system — the position is saved per character just like any other HUD element.",
+      "The drunk system has been reworked. The drunk walk and screen effect now start when the alcohol gauge reaches 50% and continue without any interruption until it drops below 25%. All levels are configurable.",
+      "Drunk walking now has two stages: a light sway at lower alcohol levels and a heavy stagger at high levels.",
+      "Added a vomiting system. Above 75% alcohol the player receives a warning and may vomit by chance. Vomiting does not lock the character — you can keep walking — and it lowers alcohol, hunger and thirst (all configurable).",
+      "Drinks no longer apply their own instant drunk effects; drunkenness is now fully controlled by the alcohol gauge.",
+      "New export forceVomit() and event fx-hud:client:vomit so other scripts can trigger vomiting (for example spoiled food)."
+    ],
     "updateFiles": [
       "c/c.lua",
       "c/opensource.lua",
@@ -343,7 +343,7 @@
       "fxmanifest.lua"
     ]
   },
-    {
+  {
     "version": "3.5",
     "changelog": [
       "YACA voice support has been fixed. The microphone HUD now follows your voice range - it used to stay stuck at the same level no matter which range you picked.",
@@ -362,6 +362,38 @@
       "EXPORTS.md",
       "EXPORTS-FILTERS.md (new file)",
       "SETUP-YACA.md (new file)",
+      "fxmanifest.lua"
+    ]
+  },
+  {
+    "version": "3.6",
+    "changelog": [
+      "Added a bladder system. Drinks fill a new bladder gauge and /pee empties it, with separate animations for men and women that players around you can see. Holding it too long costs stress and health, and at 100% the character gets sick and can die (canDie = false turns that off). Everything is in Config.HudSettings.Bladder, quick recipes in SETUP-BLADDER.md.",
+      "The bladder gauge, the progress bar and the bladder full warning can be moved and coloured in /hudmenu like every other HUD element.",
+      "Item exploit fixed: dropping a food, drink or medicine while its animation played still gave you the effect. The server now takes the item before the animation starts and gives it back if the animation fails.",
+      "One beer made you fully drunk. Beer alcohol is now 15 and sobering starts as soon as there is any alcohol (new ResetAlcohol values), so you sober up on your own over time.",
+      "Cigarette with a lighter now works on RSG.",
+      "pma-voice 7.x: the voice range was dead because the setup page was outdated. No pma-voice file edit is needed any more - if you pasted the old code into pma-voice, remove it. The HUD also reads your voice range on spawn. See SETUP-PMA&SALTY.md.",
+      "All commands are now listed in one table, Config.Commands, where you can rename them.",
+      "New bladder exports for other scripts: getStatus(\"bladder\"), setStatus(\"bladder\", value) and forcePee(). See EXPORTS.md."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua new Config.Commands / new Config.HudSettings.Bladder / new Locale (bladderready, bladderurge, bladderfull, bladdercritical, peenotneeded, peeblocked, peedone, peeprogress, peestop, bladderalert, peecancelled, consumeFailed, hud_bladder, hud_progress, hud_bladder_alert) / new colours (#bladder-core, #bladder-meter, #progress-fill, #progressbar-img, #bladder-alert-icon, #bladder-alert-text) / updated generateHudLayout and Config.HideHuds (bladder) / updated ResetAlcohol values",
+      "consumables.lua (beer Alcohol = 15, new Config.AnimationTimeoutMs)",
+      "fx_hud.sql (new bladder column, added automatically on start)",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "ui/assets/img/bladdertoilet.png (new file)",
+      "ui/assets/img/bladdericon.png (new file)",
+      "SETUP-BLADDER.md (new file)",
+      "SETUP-PMA&SALTY.md (rewritten for pma-voice 7.x)",
+      "EXPORTS.md",
+      "EXPORTS-FILTERS.md",
       "fxmanifest.lua"
     ]
   }
