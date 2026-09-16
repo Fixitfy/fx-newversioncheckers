@@ -319,5 +319,42 @@
       "config.lua / New Locale partialcollect",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "2.6",
+    "changelog": [
+      "READ FIRST: setups/HOW-TO-UPDATE-2.6.md. You keep your own config.lua - four short moves, every line of code you need is on that page.",
+      "Delivery rebuilt: take a job from a buyer, collect an empty wagon at your own hideout, load it there, deliver at night, bring the wagon back. Deposit, lost-wagon fee and debt are in configs/config_delivery.lua.",
+      "The empty wagon is placed inside your hideout's yard (a fence on the ground shows where). Replace a stuck wagon or give the job up right at the wagon; report a lost wagon or give up at your hideout door.",
+      "New: shack robbery. Break the lock with the lockpick minigame, search the room, and watch the men inside - they shoot back. configs/config_shellrobbery.lua.",
+      "New: wagon robbery. Pick the padlock on a delivery wagon from behind and take from its load. configs/config_wagonrobbery.lua.",
+      "New: target system support (ox_target and others) - Config.Target. With it off, the prompts do everything the target does.",
+      "A blown up still leaves a wreck only its owner can clear to get the still back. A worn out still shuts until it is repaired (Config.MinDurabilityToProduce).",
+      "The still menu updates live, and stills no longer lose xp when they level up.",
+      "Config is a configs folder now, one file per subject, every setting explained beside it. All player text is in locales.lua (EN, TR, DE, FR).",
+      "Webhook logging by category in configs/config_server.lua.",
+      "The database tables are created by the resource itself. Items: setups/VORP-ITEMS.md or setups/RSG-ITEMS.md.",
+      "Many fixes: wagons left behind are removed, prompt conflicts, exit teleport, robbery guards, and more."
+    ],
+    "updateFiles": [
+      "setups/HOW-TO-UPDATE-2.6.md - read this first, it walks you through the update",
+      "c/client.lua",
+      "c/farming.lua",
+      "s/server.lua",
+      "framework/framework.lua",
+      "fxmanifest.lua",
+      "locales.lua (new file - all player text, was Config.Locale)",
+      "configs/config.lua (new folder - your old config.lua goes here)",
+      "configs/config_business.lua (new file - the buyers, was Config.Customers)",
+      "configs/config_delivery.lua (new file)",
+      "configs/config_shellrobbery.lua (new file)",
+      "configs/config_wagonrobbery.lua (new file)",
+      "configs/config_server.lua (new file - webhooks, was config_server.lua)",
+      "setups/VORP-ITEMS.md, setups/RSG-ITEMS.md, setups/fx_moonshinev2.sql (new folder - replaces RSG-ITEMS.md and fx_moonshinev2.sql in the root)",
+      "ui/index.html, ui/main.js, ui/style.css",
+      "ui/sounds/ (new folder, 4 files)",
+      "Removed from the root: config.lua, config_server.lua, RSG-ITEMS.md, fx_moonshinev2.sql",
+      "Unchanged: c/opensource.lua, versionchecker.lua, fx-fields.xml, inventoryitemimages/, ui/assets/"
+    ]
   }
 ]
