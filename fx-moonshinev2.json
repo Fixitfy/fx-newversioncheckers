@@ -356,5 +356,23 @@
       "Removed from the root: config.lua, config_server.lua, RSG-ITEMS.md, fx_moonshinev2.sql",
       "Unchanged: c/opensource.lua, versionchecker.lua, fx-fields.xml, inventoryitemimages/, ui/assets/"
     ]
+  },
+    {
+    "version": "2.6.1",
+    "changelog": [
+      "Fixed the script error some servers got right after updating to 2.6: attempt to call a nil value (field 'CommandName').",
+      "That same error was why old moonshine stills and interiors did not show up in game. Nothing was lost - they are all back.",
+      "You can now keep your own config.lua exactly as it is. Anything it does not have falls back to a working default.",
+      "The server console now tells you in plain words what your old config.lua is missing, instead of showing an error.",
+      "setups/HOW-TO-UPDATE-2.6.md: step 4 is optional from now on. It is only for renaming commands and turning on the new settings."
+    ],
+    "updateFiles": [
+      "c/client.lua",
+      "s/server.lua",
+      "configs/config.lua",
+      "fxmanifest.lua",
+      "setups/HOW-TO-UPDATE-2.6.md",
+      "Leave your own config.lua where it is - this update does not need you to change it"
+    ]
   }
 ]
