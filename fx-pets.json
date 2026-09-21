@@ -239,5 +239,25 @@
       "config_pets.lua / New per-animal flag: groundBird = true (see a_c_chicken_01)",
       "fxmanifest.lua"
     ]
+  },
+    {
+    "version": "3.1",
+    "changelog": [
+      "[FIXED] Pets now attack the moment you command them, instead of freezing in place or reacting late.",
+      "[FIXED] Putting a second pet into a pet box no longer deletes the pet that was already inside.",
+      "[FIXED] A pet that is already inside a box can no longer be placed in a second box (this could duplicate pets).",
+      "[FIXED] Birds now land on your shoulder reliably instead of getting stuck next to you.",
+      "[FIXED] All of your pets can now be summoned at the same time, even when they share the same name.",
+      "[FIXED] Pets with the same name no longer share each other's hunger, thirst and health.",
+      "[FIXED] When a pet dies of old age, only that pet is removed — previously every pet sharing its name was deleted."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "s/opensource.lua",
+      "ui/main.js",
+      "locales.lua / New locale key (petboxfull)",
+      "fxmanifest.lua"
+    ]
   }
 ]
