@@ -88,5 +88,29 @@
       "krakenStudio-Compatibiliy/README.md",
       "fxmanifest.lua"
     ]
+  },
+  {
+  "version": "1.4.1",
+  "changelog": [
+    "Fixed: standing near the club book or the money prompt no longer locks your movement keys.",
+    "Fixed: dancers can no longer wander outside the club in custom interiors; a dancer that leaves its route is placed on its mark instantly.",
+    "New: config_animlist.lua - every dance animation in one list, switch any of them on or off with true/false.",
+    "New: per-room dance steps with dances = { ... } in config_clubs.lua; the default order is Config.DefaultDances in config.lua.",
+    "New: per-club stage entrance override (stageEntrance = \"spawn\") - recommended for custom interiors.",
+    "Cleaner server console: a healthy start prints no warnings, and every startup message says exactly what to fix."
+  ],
+  "updateFiles": [
+    "c/c.lua",
+    "s/s.lua",
+    "framework/frameworks.lua",
+    "config.lua",
+    "config_animations.lua",
+    "config_animlist.lua",
+    "config_clubs.lua",
+    "locales.lua",
+    "setup/SETUP.md",
+    "krakenStudio-Compatibiliy/config_clubs.lua",
+    "fxmanifest.lua"
+    ]
   }
 ]
