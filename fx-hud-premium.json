@@ -396,5 +396,35 @@
       "EXPORTS-FILTERS.md",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.7",
+    "changelog": [
+      "A consumable can give back more than one item again. Every way of writing returnedItems works, no changes needed.",
+      "If there is no room for what an item gives back, the item is not used and stays in the inventory.",
+      "Moving or dropping an item during its animation no longer gives unlimited uses.",
+      "Disconnecting during an animation no longer loses the item.",
+      "Armour above 100 no longer drops to 100 after a relog.",
+      "The map or death screen no longer undoes a hideHud call from another script.",
+      "The voice range circle on pma-voice and SaltyChat now matches the real range.",
+      "/hudmenu: size slider, HUDS / STATS buttons, slider values and DEFAULT SETTINGS fixed.",
+      "New in /hudmenu: opacity, multi select, logo hide / size / opacity, smaller icons, compass stays visible.",
+      "New: roleplay focus (Config.RoleplayFocus) fades the HUD when the character stands still.",
+      "New: auto pack (Config.HudAutoPack), hidden gauges leave no gap."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "c/opensource.lua",
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "config.lua (optional: new Config.RoleplayFocus, Config.HudAutoPack, Config.ShowCompassInHudMenu, Config.HudOpacity)",
+      "consumables.lua (comments only)",
+      "fxmanifest.lua",
+      "versionchecker.lua",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "EXPORTS.md"
+    ]
   }
 ]
