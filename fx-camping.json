@@ -77,5 +77,34 @@
       "config_items.lua",
       "client/camp.lua"
     ]
+  },
+    {
+    "version": "1.6",
+    "changelog": [
+      "SECURITY: Closed a server-side exploit that allowed items to be obtained improperly. Updating is strongly recommended for all servers.",
+      "Fixed the client crash that happened on busy servers when players placed camp props. Two separate resource pools were being exhausted; both are now capped.",
+      "Fixed camp member permissions not saving, and members not being removable, on RSG servers.",
+      "Fixed being unable to found your own camp while you are a member of someone else's camp.",
+      "Fixed the camp wagon and everything stored in it being deleted without warning when its owner placed a new camp. The new camp is now refused until the wagon is dealt with.",
+      "Storage props no longer destroy their contents. Removing a prop, deleting a camp, moving a camp or scrapping a wagon is refused while storage still holds items, and tells you what is inside.",
+      "Items are no longer lost when your inventory is too full to receive them back. The action is refused instead.",
+      "Added a per-item limit so one camp can no longer be filled with storage chests. See maxPerCamp in config_items.lua.",
+      "Camp storage, installing, removing and deleting now verify you are actually at the camp.",
+      "MaxPlayerCreateCamp now works. It was present in the config but never read; the one-camp rule was hardcoded.",
+      "Install recipes now check the required amount, not just whether you own one of the item.",
+      "NOTE: PropStreamDistance is now 150 (was 500) and a new MaxSpawnedPropsClient cap was added. These are the crash fix. Raise them only if your player count is small."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "config_items.lua",
+      "locales.lua",
+      "framework/frameworks.lua",
+      "server/camp.lua",
+      "client/camp.lua",
+      "client/createcamp.lua",
+      "client/functions.lua",
+      "client/mycamp.lua"
+    ]
   }
 ]
