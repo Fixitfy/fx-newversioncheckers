@@ -259,5 +259,22 @@
       "locales.lua / New locale key (petboxfull)",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.2",
+    "changelog": [
+      "Feeding notifications now show the item's display name instead of its technical name.",
+      "Fixed pet commands breaking for pets that have no command settings (legendary wolf, human, raccoon).",
+      "Pets that cannot attack now show a message telling the owner, instead of looking frozen.",
+      "Fixed a rare freeze when a pet animation failed to load.",
+      "Added the missing Turkish translation for the no-group message.",
+      "New locale key: petcannotattack."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "locales.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
