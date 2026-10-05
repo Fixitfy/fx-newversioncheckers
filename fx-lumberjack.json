@@ -1,20 +1,11 @@
 [
   {
-    "version": "2.0.0",
+    "version": "1.0.0",
     "changelog": [
-      "[CHANGE] fx-jobs is now fx-lumberjack, rebuilt on the Fixitfy layout: c/ s/ framework/ ui/, config.lua, config_server.lua, locales.lua (en, tr).",
-      "[ADD] Target support: ox_target, murphy_interact or pc_interaction with Config.UseTarget; the prompt stays the default.",
-      "[ADD] fx-hud style progress bar with the axe icon, built into the resource.",
-      "[ADD] Discord logging for rewards and refused chops (config_server.lua).",
-      "[FIX] The reward event paid anyone who fired it. Every chop is now a server session checked for reach, tool and length.",
-      "[FIX] The axe requirement never ran; players without a lumberaxe could chop.",
-      "[FIX] Dying or walking away mid chop still paid out.",
-      "[FIX] A full bag lost the reward while the message said it was collected.",
-      "[FIX] RSG servers failed on start: vorp_progressbar was required.",
-      "[FIX] Blips piled up on every restart; zones, prompt and axe prop are now cleaned up on stop."
+      "[RELEASE] Fixitfy Studio | Advanced Woodcutting Script",
     ],
     "updateFiles": [
-      "fxmanifest.lua"
+      "fx-lumberjack"
     ]
   }
 ]
