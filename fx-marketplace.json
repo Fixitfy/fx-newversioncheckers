@@ -140,5 +140,23 @@
       "c/opensource.lua",
       "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "3.4",
+    "changelog": [
+      "Fixed items bought or won at auction on the marketplace, especially weapons, disappearing instead of reaching the inventory or the market storage.",
+      "Listings that end while the server is offline or restarting are no longer deleted: the winner gets the item, the seller gets the money, and unsold items go back to the seller's storage.",
+      "VORP: weapons bought after a server restart are now delivered correctly with the same serial number.",
+      "If an item can't be added to the inventory, it now goes to the market storage instead of being lost.",
+      "If something goes wrong while taking an item out of storage, the item stays in storage.",
+      "Closed several server-side exploits.",
+      "Expired listings are now checked every 5 minutes instead of 30, so items reach storage faster.",
+      "The fxmarket_cleanup_expired command now delivers expired listings to their owners instead of deleting them."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
