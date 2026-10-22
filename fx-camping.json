@@ -106,5 +106,24 @@
       "client/functions.lua",
       "client/mycamp.lua"
     ]
+  },
+  {
+    "version": "1.7",
+    "changelog": [
+       "Camp storage no longer has a per-item limit. Chests now work like house and horse storage. See Config.Stash in config.lua.",
+      "Fixed campfires saying outside your camp radius even inside the camp. They now also show up in /mycamp.",
+      "Camp members can now see the camp area on the map. See showForMembers in config.lua.",
+      "Fixed a wrong outside your camp radius message when an item could not be placed for another reason."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "config_items.lua",
+      "locales.lua",
+      "framework/frameworks.lua",
+      "server/camp.lua",
+      "client/camp.lua",
+      "client/mycamp.lua"
+    ]
   }
 ]
