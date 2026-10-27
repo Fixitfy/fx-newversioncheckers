@@ -1,0 +1,43 @@
+[
+  {
+    "version": "1.0",
+    "changelog": [
+      "[ADD] Initial release: a live 3D world map that opens on the map key or by command.",
+      "[ADD] Setup wizard: finds every blip your resources draw, with name, icon and position, adds the chosen ones in one go and shows where to switch the originals off.",
+      "[ADD] Blip Manager: add, edit and delete blips, categories, glow circles and areas right on the map, with fx-adminpanel, framework or ACE permissions.",
+      "[ADD] Routes with a red line, a live distance bar and a world marker; personal pins per character; town markers; player and horse markers.",
+      "[ADD] Database storage with oxmysql; tables are created automatically.",
+      "[ADD] RegisterLocations, RemoveLocations, Open, Close and IsOpen exports and a visibility event."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "config.lua",
+      "config_locations.lua",
+      "config_icons.lua",
+      "locales.lua",
+      "frameworks.lua",
+      "versionchecker.lua",
+      "README.md",
+      "EXPORTS.md",
+      "c/",
+      "s/",
+      "ui/",
+      "setup/"
+    ]
+  },
+  {
+    "version": "1.1",
+    "changelog": [
+      "[FIX] Players could get stuck in the pause menu while the 3D map was open or closing. The pause menu can no longer open on top of the map.",
+      "[FIX] Opening the map from the game's own pause menu no longer puts the 3D map over that menu.",
+      "[FIX] The version check now finds its file.",
+      "[ADD] IsBusy export: true while the map is open or its camera is still landing. The updated fx-pausemenu uses it."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "versionchecker.lua",
+      "EXPORTS.md",
+      "c/c.lua"
+    ]
+  }
+]
