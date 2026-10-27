@@ -179,5 +179,18 @@
         "versionchecker.lua",
         "fxmanifest.lua"
     ]
+  },
+  {
+    "version": "1.8.1",
+    "changelog": [
+      "Your ped outfit is now kept after being revived, getting up after death or using /rc. It no longer goes back to outfit #1.",
+      "Your stamina no longer drops to about a quarter when you turn back into your own character with Refresh Character.",
+      "Stamina and deadeye are now kept when switching between peds."
+    ],
+    "updateFiles": [
+      "c/c.lua",
+      "s/s.lua",
+      "fxmanifest.lua"
+    ]
   }
 ]
