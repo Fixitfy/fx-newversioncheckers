@@ -34,7 +34,11 @@
       "Added the IsBusy export."
     ],
     "updateFiles": [
-      "fxmanifest.lua", "versionchecker.lua", "c/c.lua", "c/camera.lua", "EXPORTS.md"
+      "fxmanifest.lua", 
+      "versionchecker.lua", 
+      "c/c.lua", 
+      "c/camera.lua", 
+      "EXPORTS.md"
     ]
   }
 ]
