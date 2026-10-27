@@ -426,5 +426,25 @@
       "ui/assets/style.css",
       "EXPORTS.md"
     ]
+  },
+  {
+    "version": "3.7.1",
+    "changelog": [
+      "Filters (CanConsume) can now be registered from your own resources.",
+      "XP exports no longer throw errors for players on the character selection screen.",
+      "VORP: the console no longer fills with errors from players on the character selection screen.",
+      "Admin commands no longer throw errors when no character is loaded.",
+      "/getxp and /getlevel are now admin only.",
+      "The PvP comment in config.lua is fixed.",
+      "EXPORTS-FILTERS.md has clearer notes on writing filters."
+    ],
+    "updateFiles": [
+      "s/s.lua",
+      "s/opensource.lua",
+      "framework/frameworks.lua",
+      "fxmanifest.lua",
+      "config.lua (comments only, optional)",
+      "setups/EXPORTS-FILTERS.md"
+    ]
   }
 ]
