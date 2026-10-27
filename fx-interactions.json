@@ -153,5 +153,19 @@
       "fxmanifest.lua",
       "c/functions.lua"
     ]
+  },
+  {
+    "version": "2.1",
+    "changelog": [
+      "Config.RestraintCheck.custom now also receives the object the player is using (chair, bench, bed or bathtub), so interactions can be blocked on specific objects.",
+      "The check runs when the menu opens, when an animation is chosen and when changing animation while seated. A blocked object only shows a busy notification, the player is not kicked out or left stuck.",
+      "Nothing changes if you do not use it. Existing custom = function(ped) setups keep working exactly as before."
+    ],
+    "updateFiles": [
+      "fxmanifest.lua",
+      "c/c.lua",
+      "c/functions.lua",
+      "config.lua (comments only - optional)"
+    ]
   }
 ]
