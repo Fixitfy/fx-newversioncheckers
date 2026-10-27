@@ -431,19 +431,25 @@
     "version": "3.7.1",
     "changelog": [
       "Filters (CanConsume) can now be registered from your own resources.",
+      "Horse gauges no longer disappear at 0 when Config.HudAutoHide is off.",
       "XP exports no longer throw errors for players on the character selection screen.",
       "VORP: the console no longer fills with errors from players on the character selection screen.",
       "Admin commands no longer throw errors when no character is loaded.",
       "/getxp and /getlevel are now admin only.",
       "The PvP comment in config.lua is fixed.",
+      "New: AUTO HIDE in /hudmenu, players choose per gauge whether it hides at 0 (Config.PlayerAutoHideToggle).",
       "EXPORTS-FILTERS.md has clearer notes on writing filters."
     ],
     "updateFiles": [
+      "c/c.lua",
       "s/s.lua",
       "s/opensource.lua",
       "framework/frameworks.lua",
+      "ui/index.html",
+      "ui/assets/main.js",
+      "ui/assets/style.css",
+      "config.lua (new Config.PlayerAutoHideToggle, new Locale ui_hide_when_empty, both optional)",
       "fxmanifest.lua",
-      "config.lua (comments only, optional)",
       "setups/EXPORTS-FILTERS.md"
     ]
   }
