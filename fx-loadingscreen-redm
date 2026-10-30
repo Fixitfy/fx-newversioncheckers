@@ -1,10 +1,11 @@
 [
   {
-    "version": "1.0",
+    "version": "1.2.0",
     "changelog": [
-      "Bla bla bla.."
+      "[NOTE] Current release of the loading screen."
     ],
     "updateFiles": [
       "fxmanifest.lua"
     ]
   }
+]
